@@ -1,12 +1,12 @@
 ---
 title: ConohaVPS 契約サーバーのスペック検討
 tags:
-  - ConohaVPS
   - 備忘録
-  - 検討資料 
+  - ConohaVPS
+  - 検討資料
 private: true
-updated_at: ''
-id: null
+updated_at: '2026-05-18T17:30:29+09:00'
+id: 49c08d393091ce7b82fe
 organization_url_name: null
 slide: false
 ignorePublish: false
