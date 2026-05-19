@@ -2,11 +2,11 @@
 title: ConoHa VPS 契約サーバーのスペック検討
 tags:
   - WordPress
-  - ConoHaVPS
-  - VPS
+  - vps
   - 備忘録
+  - ConohaVPS
 private: true
-updated_at: '2026-05-19T14:27:05+09:00'
+updated_at: '2026-05-19T15:25:33+09:00'
 id: 49c08d393091ce7b82fe
 organization_url_name: null
 slide: false
