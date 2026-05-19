@@ -4,10 +4,6 @@ tags:
   - WordPress
   - ConoHaVPS
   - VPS
-  - Ubuntu
-  - Apache
-  - PHP
-  - MariaDB
   - 備忘録
 private: true
 updated_at: ''
