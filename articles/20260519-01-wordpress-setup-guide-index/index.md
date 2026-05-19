@@ -1,5 +1,20 @@
 ChatGPTに草案作成を依頼
 ーーー
+---
+title: ConoHa VPSでWordPressを構築する手順まとめ【初心者向け】
+tags:
+  - WordPress
+  - ConoHaVPS
+  - VPS
+  - Ubuntu
+  - 備忘録
+private: true
+updated_at: ''
+id: null
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
 # はじめに
 
 ConoHa VPS上にWordPress環境を構築した際の手順をまとめるための記事です。
