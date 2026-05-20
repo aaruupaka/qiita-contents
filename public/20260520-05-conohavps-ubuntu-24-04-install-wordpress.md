@@ -2,7 +2,7 @@
 title: 20260520-05-conohavps-ubuntu-24-04-install-wordpress
 tags:
   - ''
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
