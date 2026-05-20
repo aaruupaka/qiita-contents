@@ -1,7 +1,11 @@
 ---
 title: ConoHa VPSで構築したUbuntuにApacheをインストールする手順【備忘録】【Ubuntu24.04】【Apache2】
 tags:
-  - ''
+  - ConohaVPS
+  - Ubuntu
+  - Ubuntu24.04
+  - Apache
+  - Apache2
 private: true
 updated_at: ''
 id: null
