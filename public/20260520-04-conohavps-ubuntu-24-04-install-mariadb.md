@@ -2,7 +2,7 @@
 title: 20260520-04-conohavps-ubuntu-24-04-install-mariadb
 tags:
   - ''
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
