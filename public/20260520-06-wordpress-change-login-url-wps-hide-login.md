@@ -2,7 +2,7 @@
 title: 20260520-06-wordpress-change-login-url-wps-hide-login
 tags:
   - ''
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
