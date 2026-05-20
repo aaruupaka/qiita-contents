@@ -1,5 +1,5 @@
 ---
-title: 【ConohaVPS】【Ubuntu】初回ログインおよび、初期設定、セキュリティ対応手順【備忘録】【Ubuntu24.04】
+title: ConoHa VPSで構築したUbuntuへの初回ログインと初期設定手順【備忘録】【Ubuntu24.04】
 tags:
   - ConohaVPS
   - VPS
