@@ -2,7 +2,7 @@
 title: 20260520-07-integration-qiita-cli-github
 tags:
   - ''
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
