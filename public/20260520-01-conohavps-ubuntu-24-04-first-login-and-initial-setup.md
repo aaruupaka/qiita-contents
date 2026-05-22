@@ -22,9 +22,24 @@ ignorePublish: true
 - CPU: `3Core`
 - SSD: `100GB`
 
+# 前提条件
+- ConohaVPSでサーバーの契約が完了していること
+- OSはUbuntu24.04を選択していること
+
 # 初回ログイン
-- ログイン後出力内容
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/25ef129e-9325-48d8-8848-93b05add0915.png)
+- ConoHa VPSの管理画面にログインします。
+  ![20260520-01-01-conohavps-adm.png](../articles/20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup/images/20260520-01-01-conohavps-adm.png)
+- 契約したサーバーの`コンソール`リンクを押下します。
+  ![20260520-01-02-conohavps-console-link.png](../articles/20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup/images/20260520-01-02-conohavps-console-link.png)
+- コンソールが開くことを確認します。
+  ![](../articles/20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup/images/20260520-01-03.png)
+- `login: `では、`root`と入力し、`Enter`を押下します。
+  ![](../articles/20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup/images/20260520-01-04.png)
+- `Password: `では、契約時に設定したrootアカウントのパスワードを入力し、`Enter`を押下します。
+  ![](../articles/20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup/images/20260520-01-05.png)
+- ログインできたことを確認します。
+  - ログイン後出力内容
+    ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/25ef129e-9325-48d8-8848-93b05add0915.png)
 
 # OSアップデート
 1. OSのアップデート
