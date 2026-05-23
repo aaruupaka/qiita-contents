@@ -1,14 +1,14 @@
 ---
 title: ConoHa VPSで構築したUbuntuへの初回ログインと初期設定手順【備忘録】【Ubuntu24.04】
 tags:
-  - ConohaVPS
-  - VPS
   - Ubuntu
-  - Ubuntu24.04
+  - vps
   - 備忘録
+  - ConohaVPS
+  - Ubuntu24.04
 private: true
-updated_at: ''
-id: null
+updated_at: '2026-05-23T21:58:14+09:00'
+id: 6af06d25ccf4f6a3bd78
 organization_url_name: null
 slide: false
 ignorePublish: false
