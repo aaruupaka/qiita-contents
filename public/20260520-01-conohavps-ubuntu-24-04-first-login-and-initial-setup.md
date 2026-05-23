@@ -25,10 +25,9 @@ ignorePublish: false
 # 前提条件
 - ConohaVPSでサーバーの契約が完了していること
 - OSはUbuntu24.04を選択していること
-
 # 初回ログイン
 - ConoHa VPSの管理画面にログインします。
-  ![20260520-01-01-conohavps-adm.png](../articles/20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup/images/20260520-01-01-conohavps-adm.png)
+  ![20260520-01-01-conohavps-adm.png](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup/images/20260520-01-01-conohavps-adm.png)
 - 契約したサーバーの`コンソール`リンクを押下します。
   ![20260520-01-02-conohavps-console-link.png](../articles/20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup/images/20260520-01-02-conohavps-console-link.png)
 - コンソールが開くことを確認します。
