@@ -7,7 +7,7 @@ tags:
   - ConohaVPS
   - Ubuntu24.04
 private: true
-updated_at: '2026-05-23T22:08:49+09:00'
+updated_at: '2026-05-24T10:25:24+09:00'
 id: 6af06d25ccf4f6a3bd78
 organization_url_name: null
 slide: false
