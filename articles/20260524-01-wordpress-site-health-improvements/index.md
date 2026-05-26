@@ -80,7 +80,13 @@
         ```
     - 実行結果
     - 確認事項
-        - エクステンションが有効化されていること
+        - 下記のエクステンションが有効化されていること
+            - curl
+            - dom
+            - imagick
+            - mbstring
+            - zip
+            - intl
         - もし、差異が出ない場合は、php.iniを編集する形ではなく下記の内容が更新されている可能性がある
             - `/etc/php/8.3/mods-available/`<br>
                 ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260524-01-wordpress-site-health-improvements/images/20260524-01-03.png)
