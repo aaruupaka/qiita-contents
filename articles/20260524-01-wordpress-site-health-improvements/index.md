@@ -22,6 +22,17 @@
                 ls -la /root/
                 ```
 
+- 本件作業ディレクトリに移動する。
+    - 実行コマンド
+        ```sh
+        cd /root/20260527-01-wordpress-site-health-improvements-php-module
+        ```
+    - 確認事項
+        - `/root/20260527-01-wordpress-site-health-improvements-php-module`に移動できていることを確認する。
+            - 実行コマンド
+                ```sh
+                pwd
+                ```
 - php.iniの配置場所を探す
     - 実行コマンド
         ```sh
