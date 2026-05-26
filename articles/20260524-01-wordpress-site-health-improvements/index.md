@@ -1,6 +1,14 @@
 - サイトヘルスの内容<br>
     ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260524-01-wordpress-site-health-improvements/images/20260524-01-02.png)
 
+- rootアカウントの作業ディレクトリに移動する
+    - 実行コマンド
+        ```sh
+        cd /root
+        ```
+    - 確認事項
+        - `/root`に移動できたことを確認する。
+
 - 作業ディレクトリを作成する。
     - 実行コマンド
         ```sh
