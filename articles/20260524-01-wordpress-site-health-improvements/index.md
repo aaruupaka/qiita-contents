@@ -82,4 +82,4 @@
             - `/etc/php/8.3/mods-available/`
                 - ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260524-01-wordpress-site-health-improvements/images/20260524-01-03.png)
             - `/etc/php/8.3/apache2/conf.d/`
-                - 今日（2026年5月27日）時点で存在しない
+                - ![alt text](images/20260524-01-04.png)
