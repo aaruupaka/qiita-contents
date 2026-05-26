@@ -78,6 +78,7 @@
     - 実行コマンド
         ```sh
         php -m | grep -E 'curl|dom|imagick|mbstring|zip|intl|gd'
+        ```
 
 - php.iniをバックアップする。
     - 実行コマンド
@@ -89,8 +90,6 @@
         - `php.ini.bak_yyyymmdd`という名前のファイルが作成されていること
             - yyyymmdd部分は、実行日
             - 2026年5月28日に実行した場合は`php.ini.bak_20260528`となる。
-    
-      ```
 
 - エクステンションインストール前の`/etc/php/8.3/mods-available/`のファイル構成をバックアップする
     - 実行コマンド
