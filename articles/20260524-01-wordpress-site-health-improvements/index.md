@@ -165,3 +165,19 @@
             - `/etc/php/8.3/apache2/conf.d/`<br>
                 ![alt text](images/20260524-01-04.png)
 
+- エクステンションインストール後の`/etc/php/8.3/mods-available/`のファイル構成をバックアップする
+    - 実行コマンド
+        ```sh
+        ls -la /etc/php/8.3/mods-available/ > after_mods_available.txt
+        ```
+    - 確認事項
+        - `root/20260527-01-wordpress-site-health-improvements-php-module`配下に、`after_mods_available.txt`が作成されていることを確認する。
+            - 実行コマンド
+                ```sh
+                ls -la root/20260527-01-wordpress-site-health-improvements-php-module
+                ```
+        - `after_mods_available.txt`に中身があることを確認する。
+            - 実行コマンド
+                ```sh
+                less root/20260527-01-wordpress-site-health-improvements-php-module/after_mods_available.txt
+                ```
