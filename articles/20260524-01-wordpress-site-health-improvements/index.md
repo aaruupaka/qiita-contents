@@ -92,7 +92,7 @@
     
       ```
 
-- `/etc/php/8.3/mods-available/`のファイル構成をバックアップする
+- エクステンションインストール前の`/etc/php/8.3/mods-available/`のファイル構成をバックアップする
     - 実行コマンド
         ```sh
         ls -la /etc/php/8.3/mods-available/ > before_mods_available.txt
@@ -109,7 +109,7 @@
                 less root/20260527-01-wordpress-site-health-improvements-php-module/before_mods_available.txt
                 ```
 
-- `/etc/php/8.3/apache2/conf.d/`のファイル構成をバックアップする
+- エクステンションインストール前の`/etc/php/8.3/apache2/conf.d/`のファイル構成をバックアップする
     - 実行コマンド
         ```sh
         ls -la /etc/php/8.3/apache2/conf.d/ > before_apache2_conf.d.txt
@@ -164,3 +164,4 @@
                 ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260524-01-wordpress-site-health-improvements/images/20260524-01-03.png)
             - `/etc/php/8.3/apache2/conf.d/`<br>
                 ![alt text](images/20260524-01-04.png)
+
