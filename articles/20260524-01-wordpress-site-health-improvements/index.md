@@ -196,3 +196,20 @@
             - mbstring
             - zip
             - intl
+
+- エクステンションインストール後の`/etc/php/8.3/apache2/conf.d/`のファイル構成をバックアップする
+    - 実行コマンド
+        ```sh
+        ls -la /etc/php/8.3/apache2/conf.d/ > after_apache2_conf.d.txt
+        ```
+    - 確認事項
+        - `root/20260527-01-wordpress-site-health-improvements-php-module`配下に、`after_apache2_conf.d.txt`が作成されていることを確認する。
+            - 実行コマンド
+                ```sh
+                ls -la root/20260527-01-wordpress-site-health-improvements-php-module
+                ```
+        - `after_apache2_conf.d.txt`に中身があることを確認する。
+            - 実行コマンド
+                ```sh
+                less root/20260527-01-wordpress-site-health-improvements-php-module/after_apache2_conf.d.txt
+                ```
