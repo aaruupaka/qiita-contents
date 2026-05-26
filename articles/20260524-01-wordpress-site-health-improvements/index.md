@@ -77,7 +77,7 @@
 - PHPのエクステンションが入っているか確認する。
     - 実行コマンド
         ```sh
-        php -m | grep -E 'curl|dom|imagick|mbstring|zip|intl'
+        php -m | grep -E 'curl|dom|imagick|mbstring|zip|intl|gd'
 
 - php.iniをバックアップする。
     - 実行コマンド
@@ -129,7 +129,7 @@
 - PHPのエクステンションをインストールする
     - 実行コマンド
         ```sh
-        sudo apt install php-curl php-xml php-mbstring php-zip php-intl php-imagick -y
+        sudo apt install php-curl php-xml php-mbstring php-zip php-intl php-imagick php-gd -y
         ```
 
 - Apache2を再起動する。
@@ -141,7 +141,7 @@
 - PHPのエクステンションがインストールされていることを確認する
     - 実行コマンド
         ```sh
-        php -m | grep -E 'curl|dom|imagick|mbstring|zip|intl'
+        php -m | grep -E 'curl|dom|imagick|mbstring|zip|intl|gd'
         ```
     - 実行結果
 
@@ -159,6 +159,7 @@
             - mbstring
             - zip
             - intl
+            - gd
         - もし、差異が出ない場合は、php.iniを編集する形ではなく下記の内容が更新されている可能性がある
             - `/etc/php/8.3/mods-available/`<br>
                 ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260524-01-wordpress-site-health-improvements/images/20260524-01-03.png)
@@ -196,6 +197,7 @@
             - mbstring
             - zip
             - intl
+            - gd
 
 - エクステンションインストール後の`/etc/php/8.3/apache2/conf.d/`のファイル構成をバックアップする
     - 実行コマンド
@@ -228,3 +230,4 @@
             - mbstring
             - zip
             - intl
+            - gd
