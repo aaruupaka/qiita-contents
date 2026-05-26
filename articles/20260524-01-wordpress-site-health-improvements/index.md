@@ -1,6 +1,19 @@
 - サイトヘルスの内容<br>
     ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260524-01-wordpress-site-health-improvements/images/20260524-01-02.png)
 
+- 作業ディレクトリを作成する。
+    - 実行コマンド
+        ```sh
+        mkdir 20260527-01-wordpress-site-health-improvements-php-module
+        ```
+    - 実行結果
+    - 確認事項
+        - `/root`配下に`20260527-01-wordpress-site-health-improvements-php-module`が作成されていること
+            - 実行コマンド
+                ```sh
+                ls -la /root/
+                ```
+
 - php.iniの配置場所を探す
     - 実行コマンド
         ```sh
