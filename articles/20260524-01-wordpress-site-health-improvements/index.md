@@ -181,3 +181,18 @@
                 ```sh
                 less root/20260527-01-wordpress-site-health-improvements-php-module/after_mods_available.txt
                 ```
+
+- インストール前後の`/etc/php/8.3/mods-available/`のファイル構成を比較する。
+    - 実行コマンド
+        ```sh
+        sudo diff -u root/20260527-01-wordpress-site-health-improvements-php-module/before_mods_available.txt root/20260527-01-wordpress-site-health-improvements-php-module/after_mods_available.txt
+        ```
+    - 実行結果
+    - 確認事項
+        - 下記のエクステンションに関するiniファイルが増えていること。
+            - curl
+            - dom
+            - imagick
+            - mbstring
+            - zip
+            - intl
