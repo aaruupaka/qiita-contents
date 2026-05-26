@@ -1,5 +1,6 @@
 - サイトヘルスの内容
     ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260524-01-wordpress-site-health-improvements/images/20260524-01-02.png)
+
 - php.iniの配置場所を探す
     - 実行コマンド
         ```sh
