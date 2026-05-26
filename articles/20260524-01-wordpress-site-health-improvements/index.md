@@ -1,5 +1,5 @@
 - サイトヘルスの内容
-    ![alt text](images/20260524-01-02.png)
+    ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260524-01-wordpress-site-health-improvements/images/20260524-01-02.png)
 - php.iniの配置場所を探す
     - 実行コマンド
         ```sh
@@ -80,6 +80,6 @@
         - エクステンションが有効化されていること
         - もし、差異が出ない場合は、php.iniを編集する形ではなく下記の内容が更新されている可能性がある
             - `/etc/php/8.3/mods-available/`
-                - ![alt text](images/20260524-01-03.png)
+                - ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260524-01-wordpress-site-health-improvements/images/20260524-01-03.png)
             - `/etc/php/8.3/apache2/conf.d/`
                 - 今日（2026年5月27日）時点で存在しない
