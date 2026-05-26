@@ -48,23 +48,6 @@
     - 所感
         - どうも、php.iniはエクステンションインストール時に自動で更新されることがあるようなので、<br>自分で編集する必要はないみたい。
 
-- php.iniをバックアップする。
-    - 実行コマンド
-        ```sh
-        sudo cp /etc/php/8.3/apache2/php.ini /etc/php/8.3/apache2/php.ini.bak_$(date +%Y%m%d)
-        ```
-    - 実行結果
-    - 確認事項
-        - `php.ini.bak_yyyymmdd`という名前のファイルが作成されていること
-            - yyyymmdd部分は、実行日
-            - 2026年5月28日に実行した場合は`php.ini.bak_20260528`となる。
-    
-- PHPのエクステンションが入っているか確認する。
-    - 実行コマンド
-        ```sh
-        php -m | grep -E 'curl|dom|imagick|mbstring|zip|intl'
-        ```
-
 - PHPのエクステンションのインストールの前に、ubuntuのアップデートを行う。
     - アップデートの取得を行う
         - 実行コマンド
@@ -90,6 +73,24 @@
             sudo reboot
             ```
         - 実行結果
+
+- PHPのエクステンションが入っているか確認する。
+    - 実行コマンド
+        ```sh
+        php -m | grep -E 'curl|dom|imagick|mbstring|zip|intl'
+
+- php.iniをバックアップする。
+    - 実行コマンド
+        ```sh
+        sudo cp /etc/php/8.3/apache2/php.ini /etc/php/8.3/apache2/php.ini.bak_$(date +%Y%m%d)
+        ```
+    - 実行結果
+    - 確認事項
+        - `php.ini.bak_yyyymmdd`という名前のファイルが作成されていること
+            - yyyymmdd部分は、実行日
+            - 2026年5月28日に実行した場合は`php.ini.bak_20260528`となる。
+    
+      ```
 
 - PHPのエクステンションをインストールする
     - 実行コマンド
