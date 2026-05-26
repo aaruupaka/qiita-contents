@@ -1,6 +1,8 @@
+# 前提
 - サイトヘルスの内容<br>
     ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260524-01-wordpress-site-health-improvements/images/20260524-01-02.png)
 
+# 作業前準備
 - rootアカウントの作業ディレクトリに移動する
     - 実行コマンド
         ```sh
@@ -80,6 +82,7 @@
         php -m | grep -E 'curl|dom|imagick|mbstring|zip|intl|gd'
         ```
 
+# バックアップ
 - php.iniをバックアップする。
     - 実行コマンド
         ```sh
@@ -125,6 +128,7 @@
                 less root/20260527-01-wordpress-site-health-improvements-php-module/before_apache2_conf.d.txt
                 ```
 
+# PHPのエクステンションのインストール
 - PHPのエクステンションをインストールする
     - 実行コマンド
         ```sh
@@ -137,6 +141,7 @@
         sudo systemctl restart apache2
         ```
 
+# インストール後チェック
 - PHPのエクステンションがインストールされていることを確認する
     - 実行コマンド
         ```sh
