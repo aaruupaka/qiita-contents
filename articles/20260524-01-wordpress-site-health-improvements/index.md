@@ -277,3 +277,8 @@
     ![alt text](images/20260524-01-22.png)
 - サイトヘルスを開き、モジュールに関する`1件の致命的な問題`が改善されていることを確認する。
     ![alt text](images/20260524-01-21.png)
+
+# その他・留意事項
+RSSウィジェットには「XML or PCRE extensions not loaded!」が表示されていたが、php -m で xml系および pcre が読み込まれていることを確認した。
+また、/etc/php/8.3/apache2/conf.d/ に xml / dom / simplexml / xmlreader / xmlwriter の設定リンクが存在することを確認した。
+pcre は conf.d に個別iniが見当たらないが、php -m 上では読み込まれているため、PHPモジュール未導入が原因とは考えにくい。
