@@ -82,6 +82,7 @@
         php -m | grep -E 'curl|dom|imagick|mbstring|zip|intl|gd'
         ```
     - 実行結果
+    ![alt text](images/20260524-01-05.png)
 
 # バックアップ
 - php.iniをバックアップする。
@@ -90,10 +91,13 @@
         sudo cp /etc/php/8.3/apache2/php.ini /etc/php/8.3/apache2/php.ini.bak_$(date +%Y%m%d)
         ```
     - 実行結果
+        ![alt text](images/20260524-01-07.png)
     - 確認事項
         - `php.ini.bak_yyyymmdd`という名前のファイルが作成されていること
             - yyyymmdd部分は、実行日
             - 2026年5月28日に実行した場合は`php.ini.bak_20260528`となる。
+        - 確認結果<br>
+            ![alt text](images/20260524-01-06.png)
 
 - エクステンションインストール前の`/etc/php/8.3/mods-available/`のファイル構成をバックアップする
     - 実行コマンド
@@ -106,11 +110,15 @@
                 ```sh
                 ls -la /root/20260527-01-wordpress-site-health-improvements-php-module
                 ```
+            - 実行結果<br>
+                ![alt text](images/20260524-01-08.png)
         - `before_mods_available.txt`に中身があることを確認する。
             - 実行コマンド
                 ```sh
                 less /root/20260527-01-wordpress-site-health-improvements-php-module/before_mods_available.txt
                 ```
+            - 実行結果<br>
+                ![alt text](images/20260524-01-09.png)
 
 - エクステンションインストール前の`/etc/php/8.3/apache2/conf.d/`のファイル構成をバックアップする
     - 実行コマンド
@@ -123,11 +131,15 @@
                 ```sh
                 ls -la /root/20260527-01-wordpress-site-health-improvements-php-module
                 ```
+            - 実行結果<br>
+                ![alt text](images/20260524-01-10.png)
         - `before_apache2_conf.d.txt`に中身があることを確認する。
             - 実行コマンド
                 ```sh
                 less /root/20260527-01-wordpress-site-health-improvements-php-module/before_apache2_conf.d.txt
                 ```
+            - 実行結果<br>
+                ![alt text](images/20260524-01-11.png)
 
 # PHPのエクステンションのインストール
 - PHPのエクステンションをインストールする
@@ -135,6 +147,8 @@
         ```sh
         sudo apt install php-curl php-xml php-mbstring php-zip php-intl php-imagick php-gd -y
         ```
+    - 実行結果
+        ![alt text](images/20260524-01-12.png)
 
 - Apache2を再起動する。
     - 実行コマンド
@@ -149,6 +163,7 @@
         php -m | grep -E 'curl|dom|imagick|mbstring|zip|intl|gd'
         ```
     - 実行結果
+        ![alt text](images/20260524-01-13.png)
     - 確認事項
         - 下記のエクステンションがインストールされていること
             - curl
@@ -165,6 +180,7 @@
         sudo diff -u /etc/php/8.3/apache2/php.ini.bak_20260527 /etc/php/8.3/apache2/php.ini
         ```
     - 実行結果
+        ![alt text](images/20260524-01-14.png)
     - 確認事項
         - 変更がある場合は、下記のエクステンションに関する事項であることを確認する。
             - curl
@@ -191,11 +207,15 @@
                 ```sh
                 ls -la /root/20260527-01-wordpress-site-health-improvements-php-module
                 ```
+            - 実行結果
+                ![alt text](images/20260524-01-15.png)
         - `after_mods_available.txt`に中身があることを確認する。
             - 実行コマンド
                 ```sh
                 less /root/20260527-01-wordpress-site-health-improvements-php-module/after_mods_available.txt
                 ```
+            - 実行結果
+                ![alt text](images/20260524-01-16.png)
 
 - インストール前後の`/etc/php/8.3/mods-available/`のファイル構成を比較する。
     - 実行コマンド
@@ -203,6 +223,7 @@
         sudo diff -u /root/20260527-01-wordpress-site-health-improvements-php-module/before_mods_available.txt /root/20260527-01-wordpress-site-health-improvements-php-module/after_mods_available.txt
         ```
     - 実行結果
+        ![alt text](images/20260524-01-17.png)
     - 確認事項
         - 下記のエクステンションに関するiniファイルが増えていること。
             - curl
@@ -224,11 +245,15 @@
                 ```sh
                 ls -la /root/20260527-01-wordpress-site-health-improvements-php-module
                 ```
+            - 実行結果
+                ![alt text](images/20260524-01-18.png)
         - `after_apache2_conf.d.txt`に中身があることを確認する。
             - 実行コマンド
                 ```sh
                 less /root/20260527-01-wordpress-site-health-improvements-php-module/after_apache2_conf.d.txt
                 ```
+            - 実行結果
+                ![alt text](images/20260524-01-19.png)
 
 - インストール前後の`/etc/php/8.3/apache2/conf.d/`のファイル構成を比較する。
     - 実行コマンド
@@ -236,6 +261,7 @@
         sudo diff -u /root/20260527-01-wordpress-site-health-improvements-php-module/before_apache2_conf.d.txt /root/20260527-01-wordpress-site-health-improvements-php-module/after_apache2_conf.d.txt
         ```
     - 実行結果
+        ![alt text](images/20260524-01-20.png)
     - 確認事項
         - 下記のエクステンションに関するiniファイルへのリンクが増えていること。
             - curl
@@ -248,4 +274,6 @@
 
 # WordPress管理画面の確認
 - WordPressのダッシュボードにアクセスする。
+    ![alt text](images/20260524-01-22.png)
 - サイトヘルスを開き、モジュールに関する`1件の致命的な問題`が改善されていることを確認する。
+    ![alt text](images/20260524-01-21.png)
