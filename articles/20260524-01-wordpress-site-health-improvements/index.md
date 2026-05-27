@@ -178,7 +178,7 @@
             - `/etc/php/8.3/mods-available/`<br>
                 ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260524-01-wordpress-site-health-improvements/images/20260524-01-03.png)
             - `/etc/php/8.3/apache2/conf.d/`<br>
-                ![alt text](images/20260524-01-04.png)
+                ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260524-01-wordpress-site-health-improvements/images/20260524-01-04.png)
 
 - エクステンションインストール後の`/etc/php/8.3/mods-available/`のファイル構成をバックアップする
     - 実行コマンド
