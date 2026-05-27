@@ -81,6 +81,7 @@
         ```sh
         php -m | grep -E 'curl|dom|imagick|mbstring|zip|intl|gd'
         ```
+    - 実行結果
 
 # バックアップ
 - php.iniをバックアップする。
