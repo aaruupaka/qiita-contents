@@ -149,6 +149,15 @@
         php -m | grep -E 'curl|dom|imagick|mbstring|zip|intl|gd'
         ```
     - 実行結果
+    - 確認事項
+        - 下記のエクステンションが有効化されていること
+            - curl
+            - dom
+            - imagick
+            - mbstring
+            - zip
+            - intl
+            - gd
 
 - php.iniに更新内容があるか確認する
     - 実行コマンド
