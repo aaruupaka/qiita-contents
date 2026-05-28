@@ -4,6 +4,14 @@ public内に追加している
 - 20260529-01-conohavps-ubuntu-24-04-first-login.md
 - 20260529-01-conohavps-ubuntu-24-04-initial-setup.md
 
+分割前の`20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup.md`は`article-backup`内に保管しています。
+```
+worklogs/
+└── 20260529-01-split-public-article-20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup/
+    └── article-backup/
+        └──20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup.md
+```
+
 ## 補足
 - 画像は、`qiita-contents\articles\20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup\images`から移動させません。<br>画像参照リンクは変更しない予定です。
 - `20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup.md`は`ignorePublish`が`true`の状態の記事です。
