@@ -2,7 +2,7 @@
 title: 20260529-02-conohavps-ubuntu-24-04-initial-setup
 tags:
   - ''
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
