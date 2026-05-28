@@ -21,6 +21,7 @@ ignorePublish: true
 # 前提条件
 - ConohaVPSでサーバーの契約が完了していること
 - OSはUbuntu24.04を選択していること
+- rootアカウントでログインした状態であること
 
 # OSアップデート
 - OSのアップデート
