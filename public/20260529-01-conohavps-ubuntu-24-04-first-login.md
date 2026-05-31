@@ -17,7 +17,7 @@ ignorePublish: true
 本記事では、ConoHaVPSで作成したUbuntuへの初回ログインを行います。
 
 # 実行環境
-- 利用サービス:`ConohaVPS`
+- 利用サービス:`ConoHaVPS`
 - ディストリビューション:`Ubuntu`
 - バージョン: `24.04`
 - アーキテクチャ: `x86_64`
