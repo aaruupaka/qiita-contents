@@ -47,4 +47,4 @@ ignorePublish: false
 
 - ログインできたことを確認します。
   - ログイン後出力内容
-    ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/25ef129e-9325-48d8-8848-93b05add0915.png)
+    ![alt text](../articles/20260529-01-conohavps-ubuntu-24-04-first-login/images/20260529-01-01.png)
