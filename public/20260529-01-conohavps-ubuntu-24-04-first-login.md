@@ -13,6 +13,9 @@ organization_url_name: null
 slide: false
 ignorePublish: true
 ---
+# はじめに
+本記事では、ConoHaVPSで作成したUbuntuへの初回ログインを行います。
+
 # 実行環境
 - 利用サービス:`ConohaVPS`
 - ディストリビューション:`Ubuntu`
