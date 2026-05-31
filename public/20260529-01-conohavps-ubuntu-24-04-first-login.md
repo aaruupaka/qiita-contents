@@ -47,4 +47,4 @@ ignorePublish: false
 
 - ログインできたことを確認します。
   - ログイン後出力内容
-    ![alt text](../articles/20260529-01-conohavps-ubuntu-24-04-first-login/images/20260529-01-01.png)
+    ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260529-01-conohavps-ubuntu-24-04-first-login/images/20260529-01-01.png)
