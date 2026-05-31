@@ -11,7 +11,7 @@ updated_at: ''
 id: null
 organization_url_name: null
 slide: false
-ignorePublish: true
+ignorePublish: false
 ---
 # はじめに
 本記事では、ConoHaVPSで作成したUbuntuへの初回ログインを行います。
