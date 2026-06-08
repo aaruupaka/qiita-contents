@@ -1,8 +1,9 @@
 # localWPのダウンロード
 
 ## 公式サイトにアクセス
-- URL : `https://localwp.com/`
-    <br>![alt text](images/20260603-01-02.png)
+- 下記URLにアクセスします。
+    - URL : `https://localwp.com/`
+        <br>![alt text](images/20260603-01-02.png)
 
 ## localWPダウンロード
 - `DOWNLOAD FOR FREE`ボタンを押下します。
