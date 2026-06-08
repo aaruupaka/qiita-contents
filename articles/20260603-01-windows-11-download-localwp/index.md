@@ -8,7 +8,7 @@
 - `DOWNLOAD FOR FREE`ボタンを押下します。
     <br>![alt text](images/20260603-01-01.png)
 
-- 各項目を入力し、
+- 各項目を入力し、`GET IT NOW!`ボタンを押下します。
     <br>![alt text](images/20260603-01-03.png)
 
 - ダウンロードが完了するのを待機します。
