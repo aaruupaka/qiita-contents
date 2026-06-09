@@ -16,6 +16,11 @@ ignorePublish: false
 # はじめに
 本記事では、ConoHaVPSで作成したUbuntuへの初回ログインを行います。
 
+今回はConoHa VPSのコンソール機能を利用してログインします。
+
+SSHクライアント（Tera Term等）から接続することも可能ですが、
+初回は接続設定が不要なコンソールを利用すると簡単です。
+
 # 実行環境
 - 利用サービス:`ConoHa VPS`
 - ディストリビューション:`Ubuntu`
