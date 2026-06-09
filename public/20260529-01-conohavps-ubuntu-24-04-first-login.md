@@ -54,3 +54,4 @@ SSHクライアント（Tera Term等）から接続することも可能です�
 - ログインできたことを確認します。
   - ログイン後出力内容
     ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260529-01-conohavps-ubuntu-24-04-first-login/images/20260529-01-01.png)
+    - `root@sv-xxxxx:~#`のような表示が出ていれば成功です。
