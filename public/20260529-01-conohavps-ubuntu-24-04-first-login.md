@@ -45,6 +45,7 @@ SSHクライアント（Tera Term等）から接続することも可能です�
   ![](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup/images/20260520-01-03.png)
 
 - `login: `では、`root`と入力し、`Enter`を押下します。
+  - `root`はConoHa VPSでの契約時にパスワードを設定したアカウントです。
   ![](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260520-01-conohavps-ubuntu-24-04-first-login-and-initial-setup/images/20260520-01-04.png)
 
 - `Password: `では、契約時に設定したrootアカウントのパスワードを入力し、`Enter`を押下します。
