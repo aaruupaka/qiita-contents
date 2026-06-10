@@ -5,7 +5,7 @@ tags:
   - vps
   - 備忘録
   - ConohaVPS
-private: true
+private: false
 updated_at: '2026-06-10T15:40:22+09:00'
 id: ed1fa439da66510d38b9
 organization_url_name: null
