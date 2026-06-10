@@ -78,7 +78,9 @@ https://qiita.com/aaruupaka/items/49c08d393091ce7b82fe
 
 ConoHa VPSへ初回ログインし、作業を開始するまでの記録です。
 
-- 記事リンク：作成予定
+- 記事リンク：
+
+https://qiita.com/aaruupaka/items/a81b54d400b74a89f9de
 
 ### Ubuntuの初期設定
 
