@@ -6,7 +6,7 @@ tags:
   - 備忘録
   - ConohaVPS
   - Ubuntu24.04
-private: true
+private: false
 updated_at: '2026-06-12T08:56:06+09:00'
 id: 805405d2a7ae514ee618
 organization_url_name: null
