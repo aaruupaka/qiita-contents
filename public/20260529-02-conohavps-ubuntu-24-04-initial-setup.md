@@ -53,7 +53,7 @@ ignorePublish: true
 - タイムゾーンがJSTになっているか確認する。
     - 確認用のコマンドを実行する。
         - 実行コマンド
-        ```
+        ```bash
         timedatectl
         ```
         - 実行結果
