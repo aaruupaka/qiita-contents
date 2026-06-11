@@ -35,12 +35,16 @@ ignorePublish: true
 
 # OSアップデート
 - OSのアップデート
-    - 実行コマンド
-      ```bash
-      sudo apt update && sudo apt upgrade -y
-      ```
-    - 実行結果
-      <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/f3530104-cebd-46dc-9fb6-739f42cb23ad.png)
+  Ubuntuの初期状態では、
+  セキュリティ更新や不具合修正が適用されていない場合があります。
+
+  そのため、最初にOSアップデートを実施します。
+  - 実行コマンド
+    ```bash
+    sudo apt update && sudo apt upgrade -y
+    ```
+  - 実行結果
+    <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/f3530104-cebd-46dc-9fb6-739f42cb23ad.png)
 
 - Linuxの再起動
     - 実行コマンド
