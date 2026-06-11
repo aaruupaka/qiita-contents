@@ -1,7 +1,11 @@
 ---
 title: ConoHa VPSで構築したUbuntuの初期設定手順【備忘録】【Ubuntu24.04】
 tags:
-  - ''
+  - Ubuntu
+  - VPS
+  - ConoHaVPS
+  - Ubuntu24.04
+  - 備忘録
 private: true
 updated_at: ''
 id: null
