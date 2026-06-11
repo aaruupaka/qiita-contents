@@ -9,6 +9,16 @@ organization_url_name: null
 slide: false
 ignorePublish: true
 ---
+# はじめに
+
+本記事では、ConoHa VPSで構築したUbuntu 24.04に対して初期設定を行います。
+
+今回は以下を実施します。
+
+- OSアップデート
+- Linuxの再起動
+- タイムゾーン確認
+
 # 実行環境
 - 利用サービス:`ConohaVPS`
 - ディストリビューション:`Ubuntu`
