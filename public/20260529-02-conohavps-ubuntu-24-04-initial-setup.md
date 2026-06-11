@@ -30,7 +30,7 @@ ignorePublish: true
       sudo apt update && sudo apt upgrade -y
       ```
     - 実行結果
-      ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/f3530104-cebd-46dc-9fb6-739f42cb23ad.png)
+      <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/f3530104-cebd-46dc-9fb6-739f42cb23ad.png)
 
 - Linuxの再起動
     - 実行コマンド
@@ -38,9 +38,7 @@ ignorePublish: true
       sudo reboot
       ```
     - 実行結果
-      ```bash
-      ```
-    ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/878410cd-e705-42ee-a71e-b6c87e7768bf.png)
+      <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/878410cd-e705-42ee-a71e-b6c87e7768bf.png)
 
 - タイムゾーンがJSTになっているか確認する。
     - 確認用のコマンドを実行する。
@@ -49,7 +47,7 @@ ignorePublish: true
         timedatectl
         ```
         - 実行結果
-        ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/f06cbe3f-5c75-4070-95af-68fa0b4c31fa.png)
+          <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/f06cbe3f-5c75-4070-95af-68fa0b4c31fa.png)
         - 確認内容
           - `Time zone`の内容が`Asia/Tokyo (JST, +0900)`になっていれば問題ありません。
           - もし、Asia/Tokyo (JST, +0900)`でない場合は下記のコマンドを実行し、再度`timedatectl`を実行し確認すれば大丈夫です。
