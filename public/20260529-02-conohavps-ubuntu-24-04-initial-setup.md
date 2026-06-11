@@ -75,7 +75,7 @@ ignorePublish: false
         - 確認内容
           - `Time zone`の内容が`Asia/Tokyo (JST, +0900)`になっていれば問題ありません。
           - もし、Asia/Tokyo (JST, +0900)`でない場合は下記のコマンドを実行し、再度`timedatectl`を実行し確認すれば大丈夫です。
-          ```
-          sudo timedatectl set-timezone Asia/Tokyo
-          ```
+            ```bash
+            sudo timedatectl set-timezone Asia/Tokyo
+            ```
 
