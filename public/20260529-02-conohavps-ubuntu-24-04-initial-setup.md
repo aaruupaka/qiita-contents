@@ -2,7 +2,7 @@
 title: ConoHa VPSで構築したUbuntuの初期設定手順【備忘録】【Ubuntu24.04】
 tags:
   - ''
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
