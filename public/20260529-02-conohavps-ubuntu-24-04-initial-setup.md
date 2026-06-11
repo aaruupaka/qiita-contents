@@ -47,6 +47,11 @@ ignorePublish: true
     <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/f3530104-cebd-46dc-9fb6-739f42cb23ad.png)
 
 - Linuxの再起動
+
+  アップデート内容によっては、
+  Linuxカーネルの更新が含まれる場合があります。
+
+  そのため、OSアップデート後は再起動を実施します。
     - 実行コマンド
       ```bash
       sudo reboot
