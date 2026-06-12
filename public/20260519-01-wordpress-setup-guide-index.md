@@ -86,7 +86,9 @@ https://qiita.com/aaruupaka/items/a81b54d400b74a89f9de
 
 Ubuntuのアップデート、タイムゾーン設定など、最初に行った設定をまとめる予定です。
 
-- 記事リンク：作成予定
+- 記事リンク：
+
+https://qiita.com/aaruupaka/items/805405d2a7ae514ee618
 
 ## 3. Apache / PHP / MariaDBの導入
 
