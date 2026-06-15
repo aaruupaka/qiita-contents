@@ -137,12 +137,5 @@ ignorePublish: true
           <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/ba527b32-82f7-4877-8ecd-c2d44fbc0162.png)
         - 確認事項
             - Apache2 Default Page が出力されることを確認します。
-        
-
-
-
-
-            
-
 
 
