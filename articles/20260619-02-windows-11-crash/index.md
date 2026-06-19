@@ -144,8 +144,8 @@ ChatGPTに提示された選択肢の中から今回は、
         MemoryDiagnostics-Results
         ```
     6. 結果を確認します。
-        ![alt text](image.png)
-        ![alt text](image-1.png)
+        ![alt text](images/20260619-01-04.png)
+        ![alt text](images/20260619-01-05.png)
         - メモリに関しては問題なさそうだとわかりました。
 
 # 結論
