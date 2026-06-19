@@ -49,3 +49,5 @@ ignorePublish: true
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/ba527b32-82f7-4877-8ecd-c2d44fbc0162.png)
     - 確認事項
         - Apache2 Default Page が出力されることを確認します。
+    - 備考
+        - 初回アクセス時、「「IPアドレスからの応答時間が長すぎます」と表示され、アクセス」することができませんでした。その際、対処した内容を下記の記事に記載しています。もし同様の事象が発生した場合は、ご参考にいただけると嬉しいです。
