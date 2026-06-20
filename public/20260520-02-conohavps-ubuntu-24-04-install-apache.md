@@ -23,6 +23,11 @@ ignorePublish: true
 - SSD: `100GB`
 
 # Webサーバー（Apache）のインストール
+1. パッケージ情報の更新
+    - 実行コマンド
+        ```bash
+        sudo apt update
+        ```
 1. Apacheのインストール
     - 実行コマンド
         ```bash
