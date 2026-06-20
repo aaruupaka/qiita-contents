@@ -44,6 +44,8 @@ ignorePublish: true
         ```
     - 実行結果
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/c776e291-a6a9-4f22-a424-206766d10991.png)
+    - 確認事項
+        - Active: active (running) と表示されていることを確認します。
 
 1. アクセスチェック
     - URLアクセス
