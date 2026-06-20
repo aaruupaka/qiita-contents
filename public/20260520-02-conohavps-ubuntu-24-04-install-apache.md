@@ -47,7 +47,7 @@ ignorePublish: true
     - 確認事項
         - Active: active (running) と表示されていることを確認します。
 
-1. アクセスチェック
+1. Apacheのデフォルトページ表示確認
     - URLアクセス
         ```URL
         http://IPアドレス
