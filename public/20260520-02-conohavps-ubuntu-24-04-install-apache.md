@@ -27,6 +27,12 @@ ConoHa VPS上に構築したUbuntu 24.04環境へ、WebサーバーであるApac
 - CPU: `3Core`
 - SSD: `100GB`
 
+# 前提条件
+- ConohaVPSでサーバーの契約が完了していること
+- OSはUbuntu24.04を選択していること
+- rootアカウントでログインした状態であること
+- Ubuntuの初期設定が完了していること
+
 # Webサーバー（Apache）のインストール
 1. パッケージ情報の更新
     - 実行コマンド
