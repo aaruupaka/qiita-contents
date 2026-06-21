@@ -11,7 +11,7 @@ updated_at: ''
 id: null
 organization_url_name: null
 slide: false
-ignorePublish: true
+ignorePublish: false
 ---
 # はじめに
 ConoHa VPS上に構築したUbuntu 24.04環境へ、WebサーバーであるApache2をインストールした際の手順を備忘録としてまとめました。
