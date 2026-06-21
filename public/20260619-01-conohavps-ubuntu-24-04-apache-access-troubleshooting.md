@@ -1,14 +1,16 @@
 ---
-title: ConoHa VPSで構築したUbuntuにApacheをインストールした際、「IPアドレスからの応答時間が長すぎます」と表示され、アクセスできなかった話【備忘録】【Ubuntu24.04】【Apache2】
+title: >-
+  ConoHa
+  VPSで構築したUbuntuにApacheをインストールした際、「IPアドレスからの応答時間が長すぎます」と表示され、アクセスできなかった話【備忘録】【Ubuntu24.04】【Apache2】
 tags:
+  - Apache
+  - apache2
+  - ufw
   - ConohaVPS
   - Ubuntu24.04
-  - Apache
-  - Apache2
-  - UFW
 private: true
-updated_at: ''
-id: null
+updated_at: '2026-06-21T09:57:53+09:00'
+id: 60ddf031b8a7c9f52655
 organization_url_name: null
 slide: false
 ignorePublish: false
