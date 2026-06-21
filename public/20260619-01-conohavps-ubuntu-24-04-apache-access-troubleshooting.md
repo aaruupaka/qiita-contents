@@ -56,7 +56,7 @@ ignorePublish: true
             <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/efac620d-a14f-46ae-93f7-0e746f213b67.png)
         - 確認事項
             - 通信の許可リストにApacheがあることを確認します。
-            - 今回、ufwのリスト内にApacheの記載がないため、ufwにより、80番ポートへのアクセスが遮断されていたと判断できます。
+            - 今回、ufwのリスト内にApacheの記載がなかったため、Ubuntu側のファイアウォールで外部からのアクセスが遮断されている可能性があると判断しました。
 
 - ufwでApacheのHTTP/HTTPS通信を許可する。
     - 実行コマンド
