@@ -91,7 +91,7 @@ ignorePublish: true
     - ConohaVPSの管理画面にログインし、サーバーリスト画面にアクセスします。
         - マジで笑ったのですが、サーバーリストへのアクセス時、下記のようなポップアップが出ました。セキュリティグループが`default`の場合、外部からの通信はすべて遮断しているらしいです。今回アクセスできなかった原因②であると判断できました。
             <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/bb9922c9-5193-436e-90e2-02bc5ea5a954.png)
-    - サーバーリストから、現在使っているサーバーを探し、詳細画面を開き、セキュリティグループが`default`になっていることを確認します。。
+    - サーバーリストから、現在使っているサーバーを探し、詳細画面を開き、セキュリティグループが`default`になっていることを確認します。
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/abda7276-609f-49c0-8165-431600daf6e2.png)
     - セキュリティグループの鉛筆アイコンをクリックします。
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/ccec3701-5527-4bc5-986d-0a5e5c749df5.png)
