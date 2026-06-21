@@ -13,6 +13,14 @@ organization_url_name: null
 slide: false
 ignorePublish: true
 ---
+# はじめに
+
+ConoHa VPSでUbuntu 24.04の環境を用意し、Apacheをインストールした際、ブラウザからIPアドレスへアクセスしても「IPアドレスからの応答時間が長すぎます」と表示され、Apacheのデフォルトページが表示されませんでした。
+
+最初はApacheの起動状態やUbuntu側のファイアウォール設定を疑いましたが、最終的にはConoHa VPS側のセキュリティグループ設定も原因になっていました。
+
+この記事では、同じような状態になった際に確認したことと、実際に解決するまでの流れを備忘録として残します。
+
 # 実行環境
 - 利用サービス:`ConohaVPS`
 - ディストリビューション:`Ubuntu`
