@@ -58,7 +58,7 @@ ignorePublish: true
             - 通信の許可リストにApacheがあることを確認します。
             - 今回、ufwのリスト内にApacheの記載がないため、ufwにより、80番ポートへのアクセスが遮断されていたと判断できます。
 
-- ufwで80番ポート（apache）へのアクセスを許可する。
+- ufwでApacheのHTTP/HTTPS通信を許可する。
     - 実行コマンド
         ```bash
         sudo ufw allow 'Apache Full'
