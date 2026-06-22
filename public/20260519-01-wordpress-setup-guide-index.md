@@ -98,6 +98,8 @@ Apacheをインストールした際の記録です。
 
 - 記事リンク：
 
+https://qiita.com/aaruupaka/items/928bfd422cd85d1fafae
+
 ### Apacheの外部公開確認
 
 Apacheをインストールした際、ブラウザからIPアドレスへアクセスしても「IPアドレスからの応答時間が長すぎます」と表示され、Apacheのデフォルトページが表示されませんでした。
