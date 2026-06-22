@@ -6,7 +6,7 @@ tags:
   - apache2
   - ConohaVPS
   - Ubuntu24.04
-private: true
+private: false
 updated_at: '2026-06-21T09:57:54+09:00'
 id: 928bfd422cd85d1fafae
 organization_url_name: null
