@@ -105,7 +105,9 @@ https://qiita.com/aaruupaka/items/928bfd422cd85d1fafae
 Apacheをインストールした際、ブラウザからIPアドレスへアクセスしても「IPアドレスからの応答時間が長すぎます」と表示され、Apacheのデフォルトページが表示されませんでした。
 その際に対処した内容の記録です。
 
-- 記事リンク：作成予定
+- 記事リンク：
+
+https://qiita.com/aaruupaka/items/60ddf031b8a7c9f52655
 
 ### PHPのインストール
 
