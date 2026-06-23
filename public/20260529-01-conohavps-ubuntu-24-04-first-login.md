@@ -55,3 +55,11 @@ SSHクライアント（Tera Term等）から接続することも可能です�
   - ログイン後出力内容
     ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260529-01-conohavps-ubuntu-24-04-first-login/images/20260529-01-01.png)
     - `root@sv-xxxxx:~#`のような表示が出ていれば成功です。
+
+# 関連資料。
+私が公開しているWordPress構築手順をまとめたページを作成しています。
+もしよければ、閲覧いただけると嬉しいです。
+
+https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
+
+同じ環境を構築する際の参考になれば幸いです。
