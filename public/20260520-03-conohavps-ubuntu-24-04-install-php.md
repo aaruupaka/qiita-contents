@@ -13,6 +13,16 @@ organization_url_name: null
 slide: false
 ignorePublish: true
 ---
+# はじめに
+
+前回までの記事で、Apacheのインストールと動作確認を実施しました。
+
+今回は、Apache上でPHPを実行できるようにするため、PHP 8.3をインストールします。
+
+また、インストール後は `php -v` によるバージョン確認だけでなく、Apache経由でPHPが正しく動作するかも確認します。
+
+ConoHa VPSで構築したUbuntu 24.04環境で実施した内容の備忘録として残します。
+
 # 実行環境
 - 利用サービス:`ConohaVPS`
 - ディストリビューション:`Ubuntu`
