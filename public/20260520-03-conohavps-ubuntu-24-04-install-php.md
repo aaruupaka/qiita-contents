@@ -44,6 +44,16 @@ ignorePublish: true
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/a5b6c3fa-7a87-4e8b-802d-9a6c3279b8da.png)
     - 確認事項
         - `PHP 8.3.6`といったようなバージョン情報が出力されること。
+    - 備考
+
+        今回はApache再起動なしでPHPが動作しました。
+
+        環境によってはApache再起動が必要な場合があるため、
+        動作しない場合は下記を実行してください。
+        - 実行コマンド
+            ```bash
+            sudo systemctl restart apache2
+            ```
 
 - PHPがApache経由で動作するかを確認する。
     - phpinfo確認用のファイルを作成する。
@@ -121,3 +131,9 @@ ignorePublish: true
                     <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/f0895eb3-66c2-4aca-86d5-db95331a64dc.png)
                 - 確認事項
                     - info.phpが出力されないこと。
+        :::note warn
+        phpinfo() はサーバー構成やPHP設定などの情報を表示します。
+
+        第三者に公開し続けることはセキュリティ上好ましくないため、
+        動作確認後は削除しておくことを推奨します。
+        :::
