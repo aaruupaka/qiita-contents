@@ -2,13 +2,13 @@
 title: ConoHa VPSで構築したUbuntuにPHPをインストールする手順【備忘録】【Ubuntu24.04】【PHP8.3】
 tags:
   - PHP
-  - ConohaVPS
   - Ubuntu
-  - Ubuntu24.04
+  - ConohaVPS
   - PHP8.3
+  - Ubuntu24.04
 private: true
-updated_at: ''
-id: null
+updated_at: '2026-06-23T19:39:12+09:00'
+id: 1a4ee975af3339843b4a
 organization_url_name: null
 slide: false
 ignorePublish: false
