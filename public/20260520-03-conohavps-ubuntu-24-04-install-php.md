@@ -34,6 +34,7 @@ ignorePublish: true
         ```
     - 実行結果
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/0e828100-7025-4c01-b2da-5134a4c74d6d.png)
+
 - PHPの動作確認
     - 実行コマンド
         ```bash
@@ -43,6 +44,7 @@ ignorePublish: true
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/a5b6c3fa-7a87-4e8b-802d-9a6c3279b8da.png)
     - 確認事項
         - `PHP 8.3.6`といったようなバージョン情報が出力されること。
+
 - PHPがApache経由で動作するかを確認する。
     - phpinfo確認用のファイルを作成する。
         - 実行コマンド
@@ -85,6 +87,7 @@ ignorePublish: true
                         phpinfo();
                         ```
                     - `q`を押し、lessコマンドを終了する
+
     - ブラウザでinfo.phpにアクセスする。
         - URL
             - `http://IPアドレス/info.php`
