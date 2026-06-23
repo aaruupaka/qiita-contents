@@ -333,3 +333,10 @@ https://qiita.com/Qiita/items/32c79014509987541130
 https://github.com/increments/qiita-cli/blob/main/README.md
 
 
+# 関連資料
+私が公開しているWordPress構築手順をまとめたページを作成しています。
+もしよければ、閲覧いただけると嬉しいです。
+
+https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
+
+同じ環境を構築する際の参考になれば幸いです。
