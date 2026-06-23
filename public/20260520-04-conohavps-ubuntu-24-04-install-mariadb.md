@@ -67,3 +67,10 @@ ignorePublish: true
         ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/44dda5ab-f09c-4920-a649-fbab8deafffd.png)
 
 
+# 関連資料
+私が公開しているWordPress構築手順をまとめたページを作成しています。
+もしよければ、閲覧いただけると嬉しいです。
+
+https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
+
+同じ環境を構築する際の参考になれば幸いです。
