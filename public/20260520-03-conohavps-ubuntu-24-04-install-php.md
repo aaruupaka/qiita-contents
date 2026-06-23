@@ -21,6 +21,12 @@ ignorePublish: true
 
 また、インストール後は `php -v` によるバージョン確認だけでなく、Apache経由でPHPが正しく動作するかも確認します。
 
+前回の記事は下記です。
+もしよろしければ読んでいただけると幸いです。
+
+https://qiita.com/aaruupaka/items/60ddf031b8a7c9f52655
+
+
 ConoHa VPSで構築したUbuntu 24.04環境で実施した内容の備忘録として残します。
 
 # 実行環境
