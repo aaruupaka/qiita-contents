@@ -58,6 +58,7 @@ ignorePublish: true
                 ```php
                 <?php
                 phpinfo();
+                ?>
                 ```
             <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/4b8941f9-f4d7-4875-a022-3767e04d627b.png)
         - `Ctrl + O`入力後、`Enter`を押し、編集モードを終了する。
