@@ -160,4 +160,8 @@ ConoHa VPSで構築したUbuntu 24.04環境で実施した内容の備忘録と�
 
 次回はMariaDBのインストールやデータベースの初期設定を行い、WordPressを動作させるための環境を整えていく予定です。
 
+WordPress構築手順をまとめた記事一覧は下記です。
+
+https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
+
 同じ環境を構築する際の参考になれば幸いです。
