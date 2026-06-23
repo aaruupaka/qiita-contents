@@ -85,6 +85,7 @@ ignorePublish: true
                         ```php
                         <?php
                         phpinfo();
+                        ?>
                         ```
                     - `q`を押し、lessコマンドを終了する
 
