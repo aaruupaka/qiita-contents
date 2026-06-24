@@ -147,12 +147,12 @@ ConoHa VPSで構築したUbuntu 24.04環境で実施した内容の備忘録と�
                     <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/f0895eb3-66c2-4aca-86d5-db95331a64dc.png)
                 - 確認事項
                     - info.phpが出力されないこと。
-        :::note warn
-            phpinfo() はサーバー構成やPHP設定などの情報を表示します。
+:::note warn
+phpinfo() はサーバー構成やPHP設定などの情報を表示します。
 
-            第三者に公開し続けることはセキュリティ上好ましくないため、
-            動作確認後は削除しておくことを推奨します。
-        :::
+第三者に公開し続けることはセキュリティ上好ましくないため、
+動作確認後は削除しておくことを推奨します。
+:::
 
 # おわりに
 
