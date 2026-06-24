@@ -319,6 +319,12 @@ ignorePublish: true
 
 # 初期ページの非公開化
 - Hello world!を非公開化する。
+:::info
+WordPressには初期状態でサンプル記事やサンプルページが登録されています。
+
+公開したままでも問題ありませんが、
+実運用では不要なため非公開化しておきます。
+:::info
     - ダッシュボードにアクセスします。
         ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/ad385905-2053-41ad-9e75-dad9e8931742.png)
     - `投稿`タブの`投稿一覧`リンクを押下します。
