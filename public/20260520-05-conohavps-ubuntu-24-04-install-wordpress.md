@@ -283,7 +283,7 @@ ignorePublish: true
   - データベース名
   - ユーザー名
   - パスワード
-  - データメースのホスト名
+  - データベースのホスト名
   - テーブル接頭辞
       ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/6c823543-71a0-4352-be9f-651a9b8ec272.png)
 
