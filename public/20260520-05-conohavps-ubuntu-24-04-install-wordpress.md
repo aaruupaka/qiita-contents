@@ -2,13 +2,13 @@
 title: ConoHa VPSで構築したUbuntuにWordPressをインストールする手順【備忘録】【Ubuntu24.04】
 tags:
   - WordPress
-  - ConohaVPS
   - Ubuntu
+  - mariadb
+  - ConohaVPS
   - Ubuntu24.04
-  - MariaDB
 private: true
-updated_at: ''
-id: null
+updated_at: '2026-06-24T22:18:16+09:00'
+id: 20c390cb93d80d6cc06c
 organization_url_name: null
 slide: false
 ignorePublish: false
