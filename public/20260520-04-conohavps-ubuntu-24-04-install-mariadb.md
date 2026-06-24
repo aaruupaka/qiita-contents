@@ -23,7 +23,7 @@ ignorePublish: true
 - SSD: `100GB`
 
 # MariaDBのインストール手順
-- MariaDBをインストールする。
+- MariaDBをインストールします。
     - 実行コマンド
         ```bash
         sudo apt install mariadb-server -y
@@ -31,7 +31,7 @@ ignorePublish: true
     - 実行結果
         ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/80512f43-6efb-4c86-b877-4d584b139a3e.png)
 
-- MariaDBのセキュリティ初期設定を行う
+- MariaDBのセキュリティ初期設定を行います。
     - 実行コマンド
         ```bash
         sudo mysql_secure_installation
@@ -51,14 +51,14 @@ ignorePublish: true
             - `Y`を入力し、`Enter`を押下
         - Reload privilege tables?
             - `Y`を入力し、`Enter`を押下
-- ログイン確認を行う
+- ログイン確認を行います。
     - 実行コマンド
         ```bash
         sudo mysql
         ```
     - 実行結果
         ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/307bdb83-36ee-4414-86f3-ad8ce4a99bc3.png)
-- DBからログアウトする。
+- DBからログアウトします。
     - 実行コマンド
         ```sql
         /q
