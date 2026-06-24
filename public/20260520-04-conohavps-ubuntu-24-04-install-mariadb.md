@@ -13,6 +13,17 @@ organization_url_name: null
 slide: false
 ignorePublish: true
 ---
+## はじめに
+
+前回の記事では、ConoHa VPS上に構築したUbuntu 24.04へPHPをインストールしました。
+
+今回は、WordPressのデータ保存先として利用するMariaDBをインストールし、初期設定を行います。
+
+MariaDBはMySQL互換のデータベースであり、WordPressでも広く利用されています。
+
+本記事では、MariaDBのインストールからセキュリティ設定、ログイン確認までの手順を備忘録としてまとめます。
+
+
 # 実行環境
 - 利用サービス:`ConohaVPS`
 - ディストリビューション:`Ubuntu`
