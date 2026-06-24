@@ -192,7 +192,7 @@ ignorePublish: true
   - apacheは下記の情報を用い動いています。
       - ユーザー：www-data
       - グループ：www-data
-  - ここでは、apacheが問題なく`/var/wwww/html/`配下にアクセスできるよう、所有者および、グループを`www-data:www-data`に変更しています。
+  - ここでは、apacheが問題なく`/var/www/html/`配下にアクセスできるよう、所有者および、グループを`www-data:www-data`に変更しています。
   :::
 - `/var/www/html/`配下のディレクトリの権限を変更する。
     - 実行コマンド
