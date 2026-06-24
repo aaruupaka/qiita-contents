@@ -1,14 +1,14 @@
 ---
 title: ConoHa VPSで構築したUbuntuにMariaDBをインストールする手順【備忘録】【Ubuntu24.04】
 tags:
-  - mariaDB
-  - ConohaVPS
   - Ubuntu
+  - mariadb
+  - ConohaVPS
   - Ubuntu24.04
   - MariaDB10.11
 private: true
-updated_at: ''
-id: null
+updated_at: '2026-06-24T21:17:06+09:00'
+id: 7b8976fd3bff4fde8f4f
 organization_url_name: null
 slide: false
 ignorePublish: false
