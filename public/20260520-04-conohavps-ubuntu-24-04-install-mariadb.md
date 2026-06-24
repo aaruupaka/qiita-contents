@@ -23,7 +23,6 @@ MariaDBはMySQL互換のデータベースであり、WordPressでも広く利�
 
 本記事では、MariaDBのインストールからセキュリティ設定、ログイン確認までの手順を備忘録としてまとめます。
 
-
 # 実行環境
 - 利用サービス:`ConohaVPS`
 - ディストリビューション:`Ubuntu`
@@ -62,6 +61,7 @@ MariaDBはMySQL互換のデータベースであり、WordPressでも広く利�
             - `Y`を入力し、`Enter`を押下
         - Reload privilege tables?
             - `Y`を入力し、`Enter`を押下
+
 - ログイン確認を行います。
     - 実行コマンド
         ```bash
@@ -69,6 +69,7 @@ MariaDBはMySQL互換のデータベースであり、WordPressでも広く利�
         ```
     - 実行結果
         ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/307bdb83-36ee-4414-86f3-ad8ce4a99bc3.png)
+
 - DBからログアウトします。
     - 実行コマンド
         ```sql
@@ -76,6 +77,7 @@ MariaDBはMySQL互換のデータベースであり、WordPressでも広く利�
         ```
     - 実行結果
         ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/44dda5ab-f09c-4920-a649-fbab8deafffd.png)
+
 - バージョン確認を行います。
     - 実行コマンド
         ```bash
