@@ -113,7 +113,9 @@ https://qiita.com/aaruupaka/items/60ddf031b8a7c9f52655
 
 WordPressで利用するPHPと、Apache連携用モジュールなどを導入した記録です。
 
-- 記事リンク：作成予定
+- 記事リンク：
+
+https://qiita.com/aaruupaka/items/1a4ee975af3339843b4a
 
 ### MariaDBのインストール
 
