@@ -170,7 +170,7 @@ ignorePublish: true
     - 実行結果
         ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/80f82959-0776-41e0-a160-1508985ff9ef.png)
     - 確認事項
-        - `wordpress`配下のファイルが`/var/www/html/`配下に配置されていることを確認する。
+        - `wordpress`配下のフォルダが`/var/www/html/`配下に配置されていることを確認する。
             - 実行コマンド
                 ```bash
                 ls -lts /var/www/html
@@ -207,7 +207,7 @@ ignorePublish: true
       - `-exec`
           - 見つかった対象に対してコマンドを実行します。
       - `{}`
-          - 対象ファイル/ディレクトリのパスが入ります。
+          - 対象フォルダ/ディレクトリのパスが入ります。
       - `\;`
           - コマンドの終了を意味します。（;はシェルの区切り文字のためエスケープが必要）
       - `-exec ... {} \;` 
@@ -237,21 +237,21 @@ ignorePublish: true
         sudo find /var/www/html/ -type f -exec chmod 644 {} \;
         ```
       :::note info
-      - `-type f` はファイルのみを対象とするオプションです。
+      - `-type f` はフォルダのみを対象とするオプションです。
       :::
     - 実行結果
         ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/1c49e9de-85b1-45cf-872e-c427844754b3.png)
     - 確認事項
-        - ファイルの権限が`rw-r--r--`になっていることを確認する。
+        - フォルダの権限が`rw-r--r--`になっていることを確認する。
         ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/fc97be53-efb6-4916-8356-86c75b307245.png)
   :::note info
-  - ファイルの場合「実行権限(x)」は不要です。
+  - フォルダの場合「実行権限(x)」は不要です。
     - 644 = rw-r--r--
       - 所有者：読み書き可能
       - 所属グループ：読み取りのみ
       - 上記以外のその他：読み取りのみ
-  - HTMLや、PHPはApacheがファイルを読み取り処理を行うので、実行権限は必要ありません。
-  - 今回は関係ないですが`.sh`ファイルなど、OSが直接実行するバッチファイル等であれば「実行権限(x)」が必要になります。
+  - HTMLや、PHPはApacheがフォルダを読み取り処理を行うので、実行権限は必要ありません。
+  - 今回は関係ないですが`.sh`フォルダなど、OSが直接実行するバッチフォルダ等であれば「実行権限(x)」が必要になります。
   :::
 - ブラウザでアクセスチェックを行う。
     - URL
