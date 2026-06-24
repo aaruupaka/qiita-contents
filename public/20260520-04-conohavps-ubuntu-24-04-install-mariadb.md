@@ -61,7 +61,7 @@ ignorePublish: true
 - DBからログアウトします。
     - 実行コマンド
         ```sql
-        /q
+        exit
         ```
     - 実行結果
         ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/44dda5ab-f09c-4920-a649-fbab8deafffd.png)
