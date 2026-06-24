@@ -13,6 +13,17 @@ organization_url_name: null
 slide: false
 ignorePublish: true
 ---
+# はじめに
+
+ConoHa VPS上に構築したUbuntu 24.04へWordPressをインストールする手順をまとめます。
+
+本記事では、WordPressの配置から初期設定までを実施し、ブラウザから管理画面へログインできる状態を目指します。
+
+なお、Apache・PHP・MariaDBのインストール手順については別記事で紹介しています。本記事では、それらのセットアップが完了している前提で作業を進めます。
+
+同じ環境でWordPressを構築する際の備忘録として、どなたかの参考になれば幸いです。
+
+
 # 実行環境
 - 利用サービス:`ConohaVPS`
 - ディストリビューション:`Ubuntu`
