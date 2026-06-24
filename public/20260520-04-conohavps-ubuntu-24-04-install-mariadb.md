@@ -65,7 +65,17 @@ ignorePublish: true
         ```
     - 実行結果
         ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/44dda5ab-f09c-4920-a649-fbab8deafffd.png)
-
+- バージョン確認を行う。
+    - 実行コマンド
+        ```sql
+        mariadb --version
+        ```
+    - 実行結果
+        ```
+        mariadb  Ver 15.1 Distrib 10.11.14-MariaDB, for debian-linux-gnu (x86_64) using  EditLine wrapper
+        ```
+    - 確認事項
+        - バージョン情報が出力されることを確認します。
 
 # 関連資料
 私が公開しているWordPress構築手順をまとめたページを作成しています。
