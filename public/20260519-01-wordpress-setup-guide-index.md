@@ -121,7 +121,9 @@ https://qiita.com/aaruupaka/items/1a4ee975af3339843b4a
 
 MariaDBをインストールし、初期設定を行った記録です。
 
-- 記事リンク：作成予定
+- 記事リンク：
+
+https://qiita.com/aaruupaka/items/7b8976fd3bff4fde8f4f
 
 ## 4. WordPress構築
 
