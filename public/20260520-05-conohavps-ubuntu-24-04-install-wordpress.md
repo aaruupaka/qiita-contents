@@ -6,7 +6,7 @@ tags:
   - mariadb
   - ConohaVPS
   - Ubuntu24.04
-private: true
+private: false
 updated_at: '2026-06-26T15:13:59+09:00'
 id: 20c390cb93d80d6cc06c
 organization_url_name: null
