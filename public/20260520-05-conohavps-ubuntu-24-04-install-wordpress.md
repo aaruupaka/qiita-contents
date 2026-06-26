@@ -330,6 +330,7 @@ ConoHa VPS上に構築したUbuntu 24.04へWordPressをインストールする�
 
 # 初期ページの非公開化
 - Hello world!を非公開化する。
+
   :::note info
   WordPressには初期状態でサンプル記事やサンプルページが登録されています。
 
