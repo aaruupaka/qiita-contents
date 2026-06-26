@@ -77,7 +77,7 @@ ConoHa VPS上に構築したUbuntu 24.04へWordPressをインストールする�
 - DB接続を切断する。
     - 実行コマンド
         ```sql
-        \q
+        exit
         ```
     - 実行結果
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/368e9454-22c6-4584-b87d-0d77c60404cd.png)
