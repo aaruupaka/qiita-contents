@@ -88,7 +88,7 @@ ConoHa VPS上に構築したUbuntu 24.04へWordPressをインストールする�
         ```bash
         cd /tmp
         ```
-    -　実行結果
+
 - 本件作業用ディレクトリを作成する。
     - 実行コマンド
         ```bash
