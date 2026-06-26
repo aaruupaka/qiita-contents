@@ -7,7 +7,7 @@ tags:
   - Ubuntu24.04
   - MariaDB10.11
 private: false
-updated_at: '2026-06-24T22:18:16+09:00'
+updated_at: '2026-06-26T14:54:05+09:00'
 id: 7b8976fd3bff4fde8f4f
 organization_url_name: null
 slide: false
