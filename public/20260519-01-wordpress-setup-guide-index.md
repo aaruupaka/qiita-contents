@@ -46,10 +46,11 @@ ConoHa VPS上にWordPress環境を構築した際の手順をまとめるため�
 5. Apacheのインストールと外部公開確認
 6. PHPのインストール
 7. MariaDBのインストール
-8. WordPress用DB・ユーザー作成
-9. WordPress本体の配置
-10. WordPress初期設定
-11. 最低限のセキュリティ設定
+8. WordPressのインストール
+  - WordPress用DB・ユーザー作成
+  - WordPress本体の配置
+  - WordPress初期設定
+9. 最低限のセキュリティ設定
 
 # 記事一覧
 
@@ -127,23 +128,17 @@ https://qiita.com/aaruupaka/items/7b8976fd3bff4fde8f4f
 
 ## 4. WordPress構築
 
-### WordPress用DB・ユーザー作成
+### WordPressのインストール
 
-WordPress用のデータベースとユーザーを作成し、権限を付与した記録です。
+WordPressのインストールを行います。
+また下記の内容も実施します。
+  - WordPress用DB・ユーザー作成
+  - WordPress本体の配置
+  - WordPress初期設定
 
-- 記事リンク：作成予定
+- 記事リンク：
 
-### WordPress本体の配置
-
-WordPress本体をダウンロードし、Apacheの公開ディレクトリへ配置した記録です。
-
-- 記事リンク：作成予定
-
-### WordPress初期設定
-
-WordPressの初期設定画面から、サイトタイトルや管理者ユーザーを設定した記録です。
-
-- 記事リンク：作成予定
+https://qiita.com/aaruupaka/items/20c390cb93d80d6cc06c
 
 ## 5. セキュリティ・運用設定
 
