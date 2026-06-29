@@ -62,7 +62,15 @@ WordPressは世界中で利用されているCMSであるため、wp-login.php�
 # Not Foundが出た場合の対処法
 <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/dfcccc5b-62c7-49df-80a2-4f784df73594.png)
 
-- 私の場合、ログインURL変更後の、ログインURLアクセス時、`Not Found`ページに出てしまいました。その際の対処方法を記載します。
+ログインURL変更後、初回ログインURLアクセス時、`Not Found`ページに出てしまいました。
+
+今回の環境では、
+Apacheのrewriteモジュールが無効であり、
+さらにAllowOverrideがNoneとなっていたため、
+WPS Hide Loginが正常に動作しませんでした。
+
+以下はその復旧手順です。
+
 - WPS Hide Loginを無効化する。
     - SSH接続または、ConohaVPSのコンソールを起動し、ログインします。
     - cdコマンドを実行し、wordpressのプラグインのディレクトリに移動します。
