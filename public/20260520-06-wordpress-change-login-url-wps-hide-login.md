@@ -45,7 +45,13 @@ WordPressは世界中で利用されているCMSであるため、wp-login.php�
 - `設定`タブの`WPS Hide Login`リンクを押下します。
     <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/1cbe5d31-6693-4082-a8c9-adb9b96a8715.png)
 - `ログインURL`の値を任意のものに変更し、`変更を保存`ボタンを押下します。
-<br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/17b52a09-1b7c-429d-ae76-906493938f40.png)
+    <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/17b52a09-1b7c-429d-ae76-906493938f40.png)
+    
+  :::note info
+    ログインURLには、`login` や `admin` のような推測されやすい単語だけを使用することは避けましょう。
+
+    第三者が推測しにくい、十分にランダムな文字列を含むURLや、自分だけが分かる言葉を組み合わせたURLを設定することをおすすめします。
+  :::
 
 - 変更後のログインURLにアクセスします。
     - ログイン画面か、ダッシュボードに遷移することを確認します。
