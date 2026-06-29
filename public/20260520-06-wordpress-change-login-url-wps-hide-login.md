@@ -31,8 +31,10 @@ WordPressは世界中で利用されているCMSであるため、wp-login.php�
 # ログインURLの変更手順
 - ダッシュボードにアクセスします。
     <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/0c0e0d8a-26b5-4ad7-b840-cedfb6b9a37c.png)
+
 - `プラグイン`タブの`プラグインを追加`リンクを押下します。
     <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/8635b712-a0b0-465d-903b-9bd908a7cea8.png)
+
 - `プラグインの検索`に`WPS Hide Login`と入力し、`今すぐインストール`ボタンを押下します。
     <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/a6734067-3d50-4ebd-8253-b4f758d4fafb.png)
     
@@ -42,8 +44,10 @@ WordPressは世界中で利用されているCMSであるため、wp-login.php�
 
 - `有効化`ボタンを押下します。
     <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/02243626-427b-4dd8-8799-3429e2596f39.png)
+
 - `設定`タブの`WPS Hide Login`リンクを押下します。
     <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/1cbe5d31-6693-4082-a8c9-adb9b96a8715.png)
+
 - `ログインURL`の値を任意のものに変更し、`変更を保存`ボタンを押下します。
     <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/17b52a09-1b7c-429d-ae76-906493938f40.png)
     
@@ -56,8 +60,6 @@ WordPressは世界中で利用されているCMSであるため、wp-login.php�
 - 変更後のログインURLにアクセスします。
     - ログイン画面か、ダッシュボードに遷移することを確認します。
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/dbd227ff-c785-4a6b-8c2f-443c0c867084.png)
-
-
 
 # Not Foundが出た場合の対処法
 <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/dfcccc5b-62c7-49df-80a2-4f784df73594.png)
