@@ -112,7 +112,7 @@ WPS Hide Loginが正常に動作しませんでした。
         - 何も出力されない場合は、有効化されていません。
         - `rewrite_module (shared)`が出力された場合、有効化されています。
         - 今回は、何も出力されなかったので、**有効化されていなかった**ようです。
-- Apacheのrewriteモジュールが有効化します。
+- Apacheのrewriteモジュールを有効化します。
     - 実行コマンド
         ```
         sudo a2enmod rewrite
@@ -127,7 +127,7 @@ WPS Hide Loginが正常に動作しませんでした。
         sudo systemctl restart apache2
         ```
     - 実行結果
-- Apacheのrewriteモジュールが有効化されたか確認します。
+- Apacheのrewriteモジュールが有効になったことを確認します。
     - 実行コマンド
         ```
         apache2ctl -M | grep rewrite
@@ -135,7 +135,7 @@ WPS Hide Loginが正常に動作しませんでした。
     - 実行結果
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/776c8ce0-1a2f-4ac2-b0da-56b3a4e70c7c.png)
     - 確認事項
-        - `rewrite_module (shared)`と種強くされることを確認します。
+        - `rewrite_module (shared)`と出力されることを確認します。
 - `.htaccess`が存在しているかを確認する。
     - 実行コマンド
         ```
@@ -232,7 +232,7 @@ WPS Hide Loginが正常に動作しませんでした。
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/80bacbc8-b0f3-4aca-a316-6daf95b32106.png)
     - `設定`タブの`WPS Hide Login`リンクを押下します。
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/1cbe5d31-6693-4082-a8c9-adb9b96a8715.png)
-    - `ログインURL`の値が任意のものになっていること確認します。
+    - `ログインURL`の値が任意のものになっていることを確認します。
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/17b52a09-1b7c-429d-ae76-906493938f40.png)
 
 # 参考資料
