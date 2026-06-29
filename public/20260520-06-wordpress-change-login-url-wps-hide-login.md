@@ -235,6 +235,16 @@ WPS Hide Loginが正常に動作しませんでした。
     - `ログインURL`の値が任意のものになっていることを確認します。
         <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/17b52a09-1b7c-429d-ae76-906493938f40.png)
 
+# おわりに
+
+今回は、`WPS Hide Login`を利用してWordPressのログインURLを変更する手順を紹介しました。
+
+ログインURLを変更するだけで不正アクセスを完全に防げるわけではありませんが、既知のログインURLを狙ったアクセスを減らす効果が期待できます。
+
+また、今回のように`Not Found`が表示された場合でも、Apacheの設定や`rewrite`モジュール、`.htaccess`の設定を確認することで復旧できるケースがあります。
+
+同じ環境でWordPressを構築している方の参考になれば幸いです。
+
 # 参考資料
 - ワプ活「WordPressのログインURLを変更する方法！プラグインを使ってセキュリティ対策を」
 
