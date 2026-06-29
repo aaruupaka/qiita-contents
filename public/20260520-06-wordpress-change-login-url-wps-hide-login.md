@@ -26,7 +26,7 @@ WordPressは世界中で利用されているCMSであるため、wp-login.php�
 
 # 作業環境
 - ConohaVPS
-- バージョン:6.9.4
+- WordPress バージョン:6.9.4
 
 # ログインURLの変更手順
 - ダッシュボードにアクセスします。
