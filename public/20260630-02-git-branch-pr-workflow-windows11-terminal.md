@@ -177,3 +177,21 @@ ignorePublish: true
 
 - プルリクエストが作成されたことを確認します。
   <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-07.png)
+
+# PRをマージする
+- `Merge pull request`ボタンの右側`▽`をクリックし、Margeの種類を`Squash and merge`に変更します。
+  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-08.png)
+
+- `Squash and merge`ボタンを押下します。
+  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-09.png)
+
+- 自動生成された下記項目を確認し、問題がなければ`Confirm squash and merge`ボタンを押下します。
+  - Commit message
+  - Extended description
+  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-10.png)
+
+- `Pull request successfully merged and closed`と出力されたことを確認します。
+  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-11.png)
+
+- ブランチを削除する場合は、`Delete branch`ボタンを押下します。
+  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-12.png)
