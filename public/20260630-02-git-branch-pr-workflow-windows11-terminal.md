@@ -117,3 +117,35 @@ ignorePublish: true
     ```
   - 確認事項
     - 今回の変更内容の概要が出力されることを確認します。
+
+# 初回プッシュを行う
+- 初回プッシュを行います。
+  - 実行コマンド
+    ```bash
+    git push -u origin feature/post-list-design
+    ```
+  - 実行結果例
+    ```bash
+    Enumerating objects: 16, done.
+    Counting objects: 100% (16/16), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (11/11), done.
+    Writing objects: 100% (11/11), 1.04 KiB | 1.04 MiB/s, done.
+    Total 11 (delta 9), reused 0 (delta 0), pack-reused 0 (from 0)
+    remote: Resolving deltas: 100% (9/9), completed with 5 local objects.
+    remote:
+    remote: Create a pull request for 'feature/post-list-design' on GitHub by visiting:
+    remote:      https://github.com/aaruupaka/wordpress-theme-aaruupaka-prot/pull/new/feature/post-list-design
+    remote:
+    To github.com:aaruupaka/wordpress-theme-aaruupaka-prot.git
+    * [new branch]      feature/post-list-design -> feature/post-list-design
+    branch 'feature/post-list-design' set up to track 'origin/feature/post-list-design'.
+    ```
+  
+  ::: note info
+  次回以降は下記のコマンドで問題なく実行できます。
+  - 実行コマンド
+    ```bash
+    git push
+    ```
+  :::
