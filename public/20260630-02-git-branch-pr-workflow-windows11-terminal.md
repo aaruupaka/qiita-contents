@@ -9,4 +9,8 @@ organization_url_name: null
 slide: false
 ignorePublish: true
 ---
-# new article body
+# 環境情報
+- OS：Windows11
+- ターミナルソフト：terminal
+- 利用サービス：GitHub
+
