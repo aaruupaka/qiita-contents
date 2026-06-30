@@ -18,3 +18,5 @@ ignorePublish: true
 - Windows11を使用していること。
 - リポジトリが作成済みであること。
 - terminalでGitHubリポジトリにSSH接続できる状態であること。
+- リポジトリをClone済みであること。
+
