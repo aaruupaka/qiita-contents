@@ -150,7 +150,7 @@ ignorePublish: true
     ```
   :::
 
-# RP(プルリクエスト)を作成する
+# PR(プルリクエスト)を作成する
 - リポジトリのトップページにアクセスします。
   <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-01.png)
 
