@@ -14,3 +14,7 @@ ignorePublish: true
 - ターミナルソフト：terminal
 - 利用サービス：GitHub
 
+# 前提条件
+- Windows11を使用していること。
+- リポジトリが作成済みであること。
+- terminalでGitHubリポジトリにSSH接続できる状態であること。
