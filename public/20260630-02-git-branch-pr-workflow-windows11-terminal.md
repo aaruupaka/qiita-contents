@@ -243,3 +243,37 @@ ignorePublish: true
     3 files changed, 8 insertions(+), 3 deletions(-)
     ```
 
+# ローカルリポジトリのブランチを削除する。
+- ブランチを削除したい場合、下記のコマンドを実行します。
+  - 実行コマンド
+    ```bash
+    git branch -d ブランチ名
+    ```
+  - 実行コマンド例
+    ```bash
+    git branch -d feature/post-list-design
+    ```
+  - 実行結果例
+    ```bash
+    warning: deleting branch 'feature/post-list-design' that has been merged to
+             'refs/remotes/origin/feature/post-list-design', but not yet merged to HEAD
+    Deleted branch feature/post-list-design (was c02a163).
+    ```
+  
+  ::: note info
+  今回、警告が出てしまっています。
+
+  上記のような警告が出る場合、ローカルリポジトリ内に古いリモート追跡ブランチ情報が残っている可能性があります。
+
+  古いリモートブランチが残っているかの確認は下記のコマンドで確認できます。
+  - 実行コマンド
+    ```bash
+    git branch -r
+    ```
+  
+  古いリモートブランチが残っているかつ、削除したい場合は下記のコマンドを実行します。
+  - 実行コマンド
+    ```bash
+    git fetch --prune
+    ``` 
+  :::
