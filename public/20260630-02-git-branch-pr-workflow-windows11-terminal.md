@@ -199,3 +199,47 @@ ignorePublish: true
 
 - ブランチを削除する場合は、`Delete branch`ボタンを押下します。
   <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-12.png)
+
+# ローカルリポジトリを最新の状態に更新する
+- terminalに戻ります。
+
+- mainブランチに切り替えます。
+  - 実行コマンド
+    ```bash
+    git switch main
+    ```
+  - 実行結果例
+    ```bash
+    Switched to branch 'main'
+    Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+      (use "git pull" to update your local branch)
+    ```
+
+- mainブランチに切り替わっていることを確認します。
+  - 実行コマンド
+    ```bash
+    git branch
+    ```
+  - 実行結果例
+    ```bash
+      feature/post-list-design
+      * main
+    ```
+  - 確認事項
+    - `main`の前に`*`が付いていることを確認します。
+
+- mainブランチを最新の状態にします。
+  - 実行コマンド
+    ```bash
+    git pull
+    ```
+  - 実行結果例
+    ```bash
+    Updating 72a453e..601a966
+    Fast-forward
+    aaruupaka-prot/functions.php | 2 +-
+    aaruupaka-prot/index.php     | 2 +-
+    aaruupaka-prot/style.css     | 7 ++++++-
+    3 files changed, 8 insertions(+), 3 deletions(-)
+    ```
+
