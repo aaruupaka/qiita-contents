@@ -182,6 +182,10 @@ ignorePublish: true
 - `Merge pull request`ボタンの右側`▽`をクリックし、Margeの種類を`Squash and merge`に変更します。
   <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-08.png)
 
+::: note info
+今回、自分自身でPRを作成、マージしようとしているため、レビューは省略しています。
+:::
+
 - `Squash and merge`ボタンを押下します。
   <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-09.png)
 
