@@ -7,11 +7,13 @@ tags:
   - ConohaVPS
   - Ubuntu24.04
 private: false
-updated_at: '2026-06-26T15:46:20+09:00'
+updated_at: '2026-07-02T20:42:11+09:00'
 id: 20c390cb93d80d6cc06c
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 

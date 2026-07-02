@@ -7,11 +7,13 @@ tags:
   - ConohaVPS
   - Ubuntu24.04
 private: false
-updated_at: '2026-06-23T19:39:12+09:00'
+updated_at: '2026-07-02T20:42:11+09:00'
 id: a81b54d400b74a89f9de
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 本記事では、ConoHaVPSで作成したUbuntuへの初回ログインを行います。

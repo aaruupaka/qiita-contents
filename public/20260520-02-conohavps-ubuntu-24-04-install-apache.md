@@ -7,11 +7,13 @@ tags:
   - ConohaVPS
   - Ubuntu24.04
 private: false
-updated_at: '2026-06-23T19:39:12+09:00'
+updated_at: '2026-07-02T20:42:12+09:00'
 id: 928bfd422cd85d1fafae
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 ConoHa VPS上に構築したUbuntu 24.04環境へ、WebサーバーであるApache2をインストールした際の手順を備忘録としてまとめました。
