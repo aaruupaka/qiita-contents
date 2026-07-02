@@ -1,7 +1,11 @@
 ---
 title: Git(GitHub)のブランチの作成からプルリクエストの作成、マージまでの手順【初学者向け】
 tags:
-  - ''
+  - Git
+  - GitHub
+  - 初学者向け
+  - 初心者向け
+  - 備忘録
 private: true
 updated_at: ''
 id: null
