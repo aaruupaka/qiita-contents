@@ -1,5 +1,5 @@
 ---
-title: 20260630-02-git-branch-pr-workflow-windows11-terminal
+title: Git(GitHub)のブランチの作成からプルリクエストの作成、マージまでの手順【初学者向け】
 tags:
   - ''
 private: true
