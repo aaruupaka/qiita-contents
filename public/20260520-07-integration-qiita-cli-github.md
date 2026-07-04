@@ -185,6 +185,10 @@ Qiita記事管理用のリポジトリを作成します。
   ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/08d71fb6-6cb1-41ef-9eda-fcc19689ff64.png)
 
 # GitHub ActionsのSecretsを設定します。
+Qiita CLIでは、GitHubへpushした際にGitHub Actionsを利用してQiitaへ記事を同期する機能があります。
+
+この機能を有効化するためには、事前にアクセストークンをGitHub Secretsへ登録する必要があります。
+
 - Qiita記事管理用のリポジトリにアクセスします。
 - リポジトリの設定画面の`security and quality`>`Secrets and variables`>`Actions`内、Repository secretsの`New repository secret`ボタンを押下します。
   ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/c879fb26-b767-4d9f-9fa9-9ab2dd39b6f5.png)
