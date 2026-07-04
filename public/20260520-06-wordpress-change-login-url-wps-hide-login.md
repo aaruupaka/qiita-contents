@@ -68,9 +68,8 @@ WordPressは世界中で利用されているCMSであるため、wp-login.php�
 
 ログインURL変更後、初回ログインURLアクセス時、`Not Found`ページに出てしまいました。
 
-今回の環境では、
-Apacheのrewriteモジュールが無効であり、
-さらにAllowOverrideがNoneとなっていたため、
+今回の環境では、Apacheのrewriteモジュールが無効かつ、、
+AllowOverrideがNoneとなっていたために、
 WPS Hide Loginが正常に動作しませんでした。
 
 以下はその復旧手順です。
