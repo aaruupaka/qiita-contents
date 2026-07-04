@@ -164,6 +164,9 @@ Qiita記事管理用のリポジトリを作成します。
     1.8.0
     ```
 - Qiita CLI をアップデートコマンドを実行します。
+
+最新版のQiita CLIを利用できるようため、念のためアップデートを実施します。
+
   - 実行コマンド
     ```
     npm install @qiita/qiita-cli@latest
