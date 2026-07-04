@@ -10,8 +10,8 @@ private: true
 updated_at: ''
 id: null
 organization_url_name: null
-posting_campaign_uuid: 783b7a849caf11eefd91
-agreed_posting_campaign_term: true
+slide: false
+ignorePublish: false
 ---
 # はじめに
 今回は、QittaとGitHubの連携を行います。
