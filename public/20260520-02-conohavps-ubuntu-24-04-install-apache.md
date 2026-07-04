@@ -12,8 +12,8 @@ id: 928bfd422cd85d1fafae
 organization_url_name: null
 slide: false
 ignorePublish: false
-posting_campaign_uuid: null
-agreed_posting_campaign_term: false
+posting_campaign_uuid: 783b7a849caf11eefd91
+agreed_posting_campaign_term: true
 ---
 # はじめに
 ConoHa VPS上に構築したUbuntu 24.04環境へ、WebサーバーであるApache2をインストールした際の手順を備忘録としてまとめました。
