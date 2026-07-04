@@ -87,7 +87,10 @@ Qiita記事管理用のリポジトリを作成します。
     ```
     cd c:\git
     ```
-- GitHubのCodeボタンからURLを取得し、cloneを実行します。
+- GitHubのCodeボタンからURLを取得します。
+  <br>![alt text](../articles/20260520-07-integration-qiita-cli-github/images/20260520-07-01.png)
+
+- cloneを実行します。
   - 実行コマンド
     ```
     git clone <URL>
