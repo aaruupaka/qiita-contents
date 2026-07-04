@@ -94,7 +94,7 @@ Qiita記事管理用のリポジトリを作成します。
     ```
 
 - GitHubのCodeボタンからURLを取得します。
-  <br>![alt text](../articles/20260520-07-integration-qiita-cli-github/images/20260520-07-01.png)
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260520-07-integration-qiita-cli-github/images/20260520-07-01.png)
 
 - cloneを実行します。
   - 実行コマンド
