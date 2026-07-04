@@ -2,16 +2,18 @@
 title: Qiita CLIを使ってQiitaの記事をGitHubで管理する手順【備忘録】
 tags:
   - Qiita
-  - QiitaCLI
   - GitHub
-  - GitHubActions
   - 備忘録
+  - GitHubActions
+  - QiitaCLI
 private: true
-updated_at: ''
-id: null
+updated_at: '2026-07-04T17:40:14+09:00'
+id: 110dbbdeb9d4f0ce64ce
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 今回は、QittaとGitHubの連携を行います。
