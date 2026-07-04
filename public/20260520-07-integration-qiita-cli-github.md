@@ -78,7 +78,7 @@ Node.jsおよび、npm、npxがインストールされているか、また、�
 # GitHubでQiita記事管理用のリポジトリを作成する。
 Qiita記事管理用のリポジトリを作成します。
 私は下記のような内容で作成しました。
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/36ece11d-72e4-4383-9a63-c038e4ca53ae.png)
+<br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/36ece11d-72e4-4383-9a63-c038e4ca53ae.png)
 
 # 作成したリポジトリをローカルPCにCloneする。
 - terminal(PowerShell)を起動します。
@@ -194,15 +194,15 @@ Qiita記事管理用のリポジトリを作成します。
 # Qiitaのトークンを作成する。
 
 - Qiitaの設定画面内の`アプリケーション`タブの`新しくトークンを発行する`リンクを押下します。
-  ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/b80cf388-9afa-4345-b59a-a70a39da696d.png)
+  <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/b80cf388-9afa-4345-b59a-a70a39da696d.png)
 
 - `アクセストークンの説明`で任意の値を入力後、`スコープ`で下記の内容のチェックボックスを有効化し、`発行する`ボタンを押下します。
   - read_qiita
   - write_qiita
-  ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/d549d978-8743-4893-96a7-36647079adbb.png)
+  <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/d549d978-8743-4893-96a7-36647079adbb.png)
 
 - 生成されたトークンをコピーします。
-  ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/08d71fb6-6cb1-41ef-9eda-fcc19689ff64.png)
+  <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/08d71fb6-6cb1-41ef-9eda-fcc19689ff64.png)
 
 # GitHub ActionsのSecretsを設定します。
 Qiita CLIでは、GitHubへpushした際にGitHub Actionsを利用してQiitaへ記事を同期する機能があります。
@@ -212,17 +212,17 @@ Qiita CLIでは、GitHubへpushした際にGitHub Actionsを利用してQiitaへ
 - Qiita記事管理用のリポジトリにアクセスします。
 
 - リポジトリの設定画面の`security and quality`>`Secrets and variables`>`Actions`内、Repository secretsの`New repository secret`ボタンを押下します。
-  ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/c879fb26-b767-4d9f-9fa9-9ab2dd39b6f5.png)
+  <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/c879fb26-b767-4d9f-9fa9-9ab2dd39b6f5.png)
 
 - 下記の項目を記入し、`Add secret`ボタンを押下します。
   - Name
     - QIITA_TOKEN
   - Secret
     - 生成されたトークン
- ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/f79895a0-5cb7-4936-b16e-cea1193a99f4.png)
+ <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/f79895a0-5cb7-4936-b16e-cea1193a99f4.png)
 
 - `Repository secrets`に`QIITA_TOKEN`が追加されたことを確認します。
- ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/261ed530-ad70-4130-bd30-85112e265c01.png)
+ <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/261ed530-ad70-4130-bd30-85112e265c01.png)
 
 # Qiita CLIのセットアップ
 - initコマンドを実行します。
