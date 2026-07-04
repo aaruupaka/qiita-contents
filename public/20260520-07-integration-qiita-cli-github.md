@@ -335,6 +335,14 @@ Qiita CLIでは、GitHubへpushした際にGitHub Actionsを利用してQiitaへ
     To github.com:aaruupaka/qiita-contents.git
        c92095d..73c4640  main -> main
     ```
+
+# おわりに
+今回は、Qiita CLIを導入し、GitHubと連携してQiitaの記事をGitHubリポジトリで管理する環境を構築しました。
+
+一度環境を整えてしまえば、ローカル環境で記事を管理しながらGitで変更履歴を残せるようになり、複数端末での作業やバックアップも行いやすくなります。
+
+本記事が、Qiita CLIを使った記事管理環境の構築を進める際の参考になれば幸いです。
+
 # 参考資料
 - Qiita(@Qiita)「Qiitaの記事をGitHubリポジトリで管理する方法」
 
