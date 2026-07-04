@@ -149,7 +149,9 @@ https://qiita.com/aaruupaka/items/20c390cb93d80d6cc06c
 WordPressのログインURLを変更するため、WPS Hide Loginを導入した記録です。  
 また、Apacheの `mod_rewrite` や `AllowOverride` 設定で詰まった内容も記録する予定です。
 
-- 記事リンク：作成予定
+- 記事リンク：
+
+https://qiita.com/aaruupaka/items/1976bfaa6485dc5f871b
 
 ### Linuxカーネル脆弱性通知への対応
 
