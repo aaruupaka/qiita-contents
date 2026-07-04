@@ -6,7 +6,7 @@ tags:
   - Ubuntu
   - ConohaVPS
   - WPSHideLogin
-private: true
+private: false
 updated_at: '2026-07-02T20:42:11+09:00'
 id: 1976bfaa6485dc5f871b
 organization_url_name: null
