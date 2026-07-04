@@ -33,7 +33,9 @@ agreed_posting_campaign_term: false
 - CLIツール:terminal
 
 # Node.js環境の動作確認
+
 Node.jsおよび、npm、npxがインストールされているか、また、問題なく動作しているかを確認します。
+
 - Node.jsのインストール状況確認および動作確認をする。
   - 実行コマンド
     ```bash
@@ -46,6 +48,7 @@ Node.jsおよび、npm、npxがインストールされているか、また、�
   - 確認事項
     - バージョン情報が出力されること
     - エラーが出ないこと
+
 - npmのインストール状況確認および動作確認をする。
   - 実行コマンド
     ```bash
@@ -58,6 +61,7 @@ Node.jsおよび、npm、npxがインストールされているか、また、�
   - 確認事項
     - バージョン情報が出力されること
     - エラーが出ないこと
+
 - npxのインストール状況確認および動作確認をする。
   - 実行コマンド
     ```bash
@@ -78,6 +82,7 @@ Qiita記事管理用のリポジトリを作成します。
 
 # 作成したリポジトリをローカルPCにCloneする。
 - terminal(PowerShell)を起動します。
+
 - リポジトリを管理するフォルダに移動します。
   - 実行コマンド
     ```bash
@@ -87,6 +92,7 @@ Qiita記事管理用のリポジトリを作成します。
     ```
     cd c:\git
     ```
+
 - GitHubのCodeボタンからURLを取得します。
   <br>![alt text](../articles/20260520-07-integration-qiita-cli-github/images/20260520-07-01.png)
 
@@ -109,6 +115,7 @@ Qiita記事管理用のリポジトリを作成します。
     remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
     Receiving objects: 100% (3/3), done.
     ```
+
 - cloneしたディレクトリに移動します。
   - 実行コマンド
     ```
@@ -125,6 +132,7 @@ Qiita記事管理用のリポジトリを作成します。
     ```
     pwd
     ```
+
 - Qiita CLIのインストールコマンドを実行します。
   - 実行コマンド
     ```bash
@@ -142,6 +150,7 @@ Qiita記事管理用のリポジトリを作成します。
     npm notice Run npm install -g npm@11.14.1 to update!
     npm notice
     ```
+
 - `ls`コマンドを実行し下記のディレクトリおよび、フォルダが作成されていることを確認します。
   - 確認フォルダおよびファイル
     - フォルダ
@@ -153,6 +162,7 @@ Qiita記事管理用のリポジトリを作成します。
     ```
     ls
     ```
+
 - Qiita CLIのバージョンチェックコマンドを実行します。
   - 実行コマンド
     ```
@@ -163,6 +173,7 @@ Qiita記事管理用のリポジトリを作成します。
     ◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
     1.8.0
     ```
+
 - Qiita CLI をアップデートコマンドを実行します。
 
 最新版のQiita CLIを利用できるようため、念のためアップデートを実施します。
@@ -181,12 +192,15 @@ Qiita記事管理用のリポジトリを作成します。
     found 0 vulnerabilities
     ```
 # Qiitaのトークンを作成する。
+
 - Qiitaの設定画面内の`アプリケーション`タブの`新しくトークンを発行する`リンクを押下します。
   ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/b80cf388-9afa-4345-b59a-a70a39da696d.png)
+
 - `アクセストークンの説明`で任意の値を入力後、`スコープ`で下記の内容のチェックボックスを有効化し、`発行する`ボタンを押下します。
   - read_qiita
   - write_qiita
   ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/d549d978-8743-4893-96a7-36647079adbb.png)
+
 - 生成されたトークンをコピーします。
   ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/08d71fb6-6cb1-41ef-9eda-fcc19689ff64.png)
 
@@ -196,14 +210,17 @@ Qiita CLIでは、GitHubへpushした際にGitHub Actionsを利用してQiitaへ
 この機能を有効化するためには、事前にアクセストークンをGitHub Secretsへ登録する必要があります。
 
 - Qiita記事管理用のリポジトリにアクセスします。
+
 - リポジトリの設定画面の`security and quality`>`Secrets and variables`>`Actions`内、Repository secretsの`New repository secret`ボタンを押下します。
   ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/c879fb26-b767-4d9f-9fa9-9ab2dd39b6f5.png)
+
 - 下記の項目を記入し、`Add secret`ボタンを押下します。
   - Name
     - QIITA_TOKEN
   - Secret
     - 生成されたトークン
  ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/f79895a0-5cb7-4936-b16e-cea1193a99f4.png)
+
 - `Repository secrets`に`QIITA_TOKEN`が追加されたことを確認します。
  ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/261ed530-ad70-4130-bd30-85112e265c01.png)
 
@@ -237,6 +254,7 @@ Qiita CLIでは、GitHubへpushした際にGitHub Actionsを利用してQiitaへ
       2. 記事のプレビューができるようになります。
         npx qiita preview
     ```
+
 - terminal上でQiita CLIのログインコマンドを実行し、生成したトークンを入力後、`Enter`を入力します。
   - 実行コマンド
     ```
@@ -259,6 +277,7 @@ Qiita CLIでは、GitHubへpushした際にGitHub Actionsを利用してQiitaへ
     💁 コマンドのヘルプを確認する
       npx qiita help
     ```
+
 # GitHubリポジトリに今回作業で生成されたファイルおよびディレクトリを反映する。
 - Gitのステータスを確認します。
   - 実行コマンド
@@ -280,11 +299,13 @@ Qiita CLIでは、GitHubへpushした際にGitHub Actionsを利用してQiitaへ
     
     nothing added to commit but untracked files present (use "git add" to track)
     ```
+
 - 変更をstageへ追加します。
   - 実行コマンド
     ```bash
     git add .
     ```
+
 - 再度ステータスを確認します。
   - 実行コマンド
     ```bash
@@ -304,6 +325,7 @@ Qiita CLIでは、GitHubへpushした際にGitHub Actionsを利用してQiitaへ
             new file:   qiita.config.json
     
     ```
+
 - コミットします。（コメントは任意の内容で大丈夫です。）
   - 実行コマンド
     ```bash
@@ -319,7 +341,8 @@ Qiita CLIでは、GitHubへpushした際にGitHub Actionsを利用してQiitaへ
      create mode 100644 package.json
      create mode 100644 qiita.config.json
     ```
-― プッシュします。
+
+- プッシュします。
   - 実行コマンド
     ```bash
     git push origin main
@@ -351,12 +374,3 @@ https://qiita.com/Qiita/items/32c79014509987541130
 - GitHub qiita-cli/READE.me 「Qiita CLI、Qiita Preview へようこそ！」
 
 https://github.com/increments/qiita-cli/blob/main/README.md
-
-
-# 関連資料
-私が公開しているWordPress構築手順をまとめたページを作成しています。
-もしよければ、閲覧いただけると嬉しいです。
-
-https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
-
-同じ環境を構築する際の参考になれば幸いです。
