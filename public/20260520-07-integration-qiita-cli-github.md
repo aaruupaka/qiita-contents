@@ -16,12 +16,12 @@ posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
 # はじめに
-今回は、QittaとGitHubの連携を行います。
+今回は、QiitaとGitHubの連携を行います。
 
 下書き状態のものが多いのですが、記事数が増えてきたため、Github上で管理出来たら便利だろうと思い、着手することにしました。
 
 今回、私が使用しているPCにすでに入っているNodistを利用したNode.js環境を使用しています。
-参考にならない可能性が高いですが、Node.jsの入れ直しよりも、QittaとGitHubの連携を最優先で進めたいと考えています。
+参考にならない可能性が高いですが、Node.jsの入れ直しよりも、QiitaとGitHubの連携を最優先で進めたいと考えています。
 
 # 作業環境
 OS:Windows 11 Home
@@ -71,8 +71,8 @@ Node.jsおよび、npm、npxがインストールされているか、また、�
     - バージョン情報が出力されること
     - エラーが出ないこと
 
-# GitHubでQitta記事管理用のリポジトリを作成する。
-Qitta記事管理用のリポジトリを作成します。
+# GitHubでQiita記事管理用のリポジトリを作成する。
+Qiita記事管理用のリポジトリを作成します。
 私は下記のような内容で作成しました。
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/36ece11d-72e4-4383-9a63-c038e4ca53ae.png)
 
@@ -117,7 +117,7 @@ Qitta記事管理用のリポジトリを作成します。
     ```
 
 # Qiita CLIを導入する
-- Qittaコンテンツを管理したいフォルダにいることを確認します。
+- Qiitaコンテンツを管理したいフォルダにいることを確認します。
   - 実行コマンド
     ```
     pwd
@@ -150,7 +150,7 @@ Qitta記事管理用のリポジトリを作成します。
     ```
     ls
     ```
-- Qitta CLIのバージョンチェックコマンドを実行します。
+- Qiita CLIのバージョンチェックコマンドを実行します。
   - 実行コマンド
     ```
     npx qiita version
@@ -175,7 +175,7 @@ Qitta記事管理用のリポジトリを作成します。
     found 0 vulnerabilities
     ```
 # Qiitaのトークンを作成する。
-- Qittaの設定画面内の`アプリケーション`タブの`新しくトークンを発行する`リンクを押下します。
+- Qiitaの設定画面内の`アプリケーション`タブの`新しくトークンを発行する`リンクを押下します。
   ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/b80cf388-9afa-4345-b59a-a70a39da696d.png)
 - `アクセストークンの説明`で任意の値を入力後、`スコープ`で下記の内容のチェックボックスを有効化し、`発行する`ボタンを押下します。
   - read_qiita
@@ -185,7 +185,7 @@ Qitta記事管理用のリポジトリを作成します。
   ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/08d71fb6-6cb1-41ef-9eda-fcc19689ff64.png)
 
 # GitHub ActionsのSecretsを設定します。
-- Qitta記事管理用のリポジトリにアクセスします。
+- Qiita記事管理用のリポジトリにアクセスします。
 - リポジトリの設定画面の`security and quality`>`Secrets and variables`>`Actions`内、Repository secretsの`New repository secret`ボタンを押下します。
   ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/c879fb26-b767-4d9f-9fa9-9ab2dd39b6f5.png)
 - 下記の項目を記入し、`Add secret`ボタンを押下します。
@@ -227,7 +227,7 @@ Qitta記事管理用のリポジトリを作成します。
       2. 記事のプレビューができるようになります。
         npx qiita preview
     ```
-- terminal上でQitta CLIのログインコマンドを実行し、生成したトークンを入力後、`Enter`を入力します。
+- terminal上でQiita CLIのログインコマンドを実行し、生成したトークンを入力後、`Enter`を入力します。
   - 実行コマンド
     ```
     npx qiita login
