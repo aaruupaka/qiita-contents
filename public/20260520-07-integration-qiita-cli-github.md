@@ -12,8 +12,8 @@ id: 110dbbdeb9d4f0ce64ce
 organization_url_name: null
 slide: false
 ignorePublish: false
-posting_campaign_uuid: 783b7a849caf11eefd91
-agreed_posting_campaign_term: true
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 今回は、QiitaとGitHubの連携を行います。
