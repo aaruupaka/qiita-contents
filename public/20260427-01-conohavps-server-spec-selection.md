@@ -11,6 +11,8 @@ id: 49c08d393091ce7b82fe
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 ConoHa VPSで契約するサーバーのスペックを検討した際の記録です。
