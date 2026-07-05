@@ -21,7 +21,7 @@ agreed_posting_campaign_term: false
 記事数が増えてきたため、GitHub上で管理できる環境を構築することにしました。
 
 今回、私が使用しているPCにすでに入っているNodistを利用したNode.js環境を使用しています。
-参考にならない可能性が高いですが、Node.jsの入れ直しよりも、QiitaとGitHubの連携を最優先で進めたいと考えています。
+参考にならない可能性もありますが、Node.jsの入れ直しよりも、QiitaとGitHubの連携を最優先で進めたいと考えています。
 
 # 作業環境
 - OS:Windows 11 Home
