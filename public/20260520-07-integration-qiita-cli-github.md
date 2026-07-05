@@ -330,7 +330,7 @@ Qiita CLIでは、GitHubへpushした際にGitHub Actionsを利用してQiitaへ
     
     ```
 
-- コミットします。（コメントは任意の内容で大丈夫です。）
+- コミットします。（コミットメッセージは任意の内容で大丈夫です。）
   - 実行コマンド
     ```bash
     git commit -m "Setup Qiita CLI environment"
