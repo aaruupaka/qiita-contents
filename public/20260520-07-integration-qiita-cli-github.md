@@ -171,7 +171,7 @@ Qiita記事管理用のリポジトリを作成します。
     ```
     npx qiita version
     ```
-  -　実行結果
+  - 実行結果
     ```
     ◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
     1.8.0
