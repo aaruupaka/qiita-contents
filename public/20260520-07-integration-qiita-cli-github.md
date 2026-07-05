@@ -83,7 +83,7 @@ Qiita記事管理用のリポジトリを作成します。
 私は下記のような内容で作成しました。
 <br>![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4376858/36ece11d-72e4-4383-9a63-c038e4ca53ae.png)
 
-# 作成したリポジトリをローカルPCにCloneする。
+# 作成したリポジトリをローカルPCにcloneする。
 - terminal(PowerShell)を起動します。
 
 - リポジトリを管理するフォルダに移動します。
