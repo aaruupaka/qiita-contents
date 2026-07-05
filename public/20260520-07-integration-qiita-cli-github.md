@@ -24,13 +24,13 @@ agreed_posting_campaign_term: false
 参考にならない可能性もありますが、Node.jsの入れ直しよりも、QiitaとGitHubの連携を最優先で進めたいと考えています。
 
 # 作業環境
-- OS:Windows 11 Home
-- バージョン:22h2
-- Node.js管理ツール:Nodist
-- Nodeバージョン:v22.4.0
-- npmバージョン:10.2.3
-- npxバージョン:10.2.3
-- CLIツール:terminal
+- OS: `Windows 11 Home`
+- バージョン: `22h2`
+- Node.js管理ツール: `Nodist`
+- Nodeバージョン: `v22.4.0`
+- npmバージョン: `10.2.3`
+- npxバージョン: `10.2.3`
+- CLIツール: `terminal`
 
 # Node.js環境の動作確認
 
