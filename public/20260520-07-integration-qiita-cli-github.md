@@ -234,7 +234,7 @@ Qiita CLIでは、GitHubへpushした際にGitHub Actionsを利用してQiitaへ
     ```
     npx qiita init
     ```
-  - 実行結果
+  - 実行結果例
     ```
     ◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
     設定ファイルを生成します。
