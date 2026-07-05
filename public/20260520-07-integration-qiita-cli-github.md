@@ -162,31 +162,31 @@ Qiita記事管理用のリポジトリを作成します。
       - package-lock.json
       - package.json
   - 実行コマンド
-    ```
+    ```bash
     ls
     ```
 
 - Qiita CLIのバージョンチェックコマンドを実行します。
   - 実行コマンド
-    ```
+    ```bash
     npx qiita version
     ```
   - 実行結果
-    ```
+    ```bash
     ◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
     1.8.0
     ```
 
 - Qiita CLI をアップデートコマンドを実行します。
 
-最新版のQiita CLIを利用できるようため、念のためアップデートを実施します。
+  最新版のQiita CLIを利用できるようため、念のためアップデートを実施します。
 
   - 実行コマンド
-    ```
+    ```bash
     npm install @qiita/qiita-cli@latest
     ```
   - 実行結果
-    ```
+    ```bash
     up to date, audited 112 packages in 2s
 
     49 packages are looking for funding
@@ -194,6 +194,7 @@ Qiita記事管理用のリポジトリを作成します。
     
     found 0 vulnerabilities
     ```
+
 # Qiitaのトークンを作成する。
 
 - Qiitaの設定画面内の`アプリケーション`タブの`新しくトークンを発行する`リンクを押下します。
