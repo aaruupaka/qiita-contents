@@ -1,17 +1,19 @@
 ---
 title: git add -p オプション一覧と使い方【チートシート】
 tags:
-  - git
+  - Git
   - GitHub
   - 初心者
-  - チートシート
   - 備忘録
+  - チートシート
 private: true
-updated_at: ''
-id: null
+updated_at: '2026-07-07T18:15:33+09:00'
+id: 83e16eb544fab59ae312
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 
