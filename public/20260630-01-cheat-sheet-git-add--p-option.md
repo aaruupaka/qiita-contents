@@ -1,7 +1,11 @@
 ---
 title: git add -p オプション一覧と使い方【チートシート】
 tags:
-  - ''
+  - git
+  - GitHub
+  - 初心者
+  - チートシート
+  - 備忘録
 private: true
 updated_at: ''
 id: null
