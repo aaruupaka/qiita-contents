@@ -89,6 +89,10 @@ git diff --staged
 git diff --cached
 ```
 
+::: note info
+`--staged` は `--cached` のエイリアスであり、どちらを使っても同じ結果になります。
+:::
+
 一方で、まだステージングしていない変更を確認する場合は、通常の `git diff` を使います。
 
 ```bash
