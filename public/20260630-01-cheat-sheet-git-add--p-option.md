@@ -1,5 +1,5 @@
 ---
-title: 20260630-01-cheat-sheet-git-add--p-option
+title: git add -p オプション一覧と使い方【チートシート】
 tags:
   - ''
 private: true
