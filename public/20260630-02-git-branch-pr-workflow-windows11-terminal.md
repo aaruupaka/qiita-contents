@@ -183,6 +183,15 @@ Gitを使い始めたばかりの頃は、「ブランチは作れたけど、�
         - 必須項目です。
     - Add a description
         - 任意項目ですが、変更内容をざっと入力することを推奨します。
+        - 記載例
+          ```text
+          ## 変更内容
+          - 一覧画面のデザイン修正
+          - タイトル位置を変更
+
+          ## 動作確認
+          - 表示確認済み
+          ```
 
   <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-06.png)
 
