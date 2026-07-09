@@ -11,7 +11,7 @@ updated_at: ''
 id: null
 organization_url_name: null
 slide: false
-ignorePublish: true
+ignorePublish: false
 ---
 # はじめに
 今回は、Gitでブランチを作成してから、変更をコミットし、GitHubでPR(プルリクエスト)を作成・マージするまでの一連の流れを紹介します。
