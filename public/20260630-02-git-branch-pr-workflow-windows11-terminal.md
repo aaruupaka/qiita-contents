@@ -21,12 +21,12 @@ Gitを使い始めたばかりの頃は、「ブランチは作れたけど、�
 この記事では、Windows 11のWindows Terminalを使用し、初学者向けに実際のコマンドと画面を交えながら、ブランチ作成からマージ後の後片付けまで順番に解説します。
 
 # 環境情報
-- OS：Windows11
+- OS：Windows 11
 - ターミナルソフト：Windows Terminal
 - 利用サービス：GitHub
 
 # 前提条件
-- Windows11を使用していること。
+- Windows 11を使用していること。
 - リポジトリが作成済みであること。
 - Windows TerminalでGitHubリポジトリにSSH接続できる状態であること。
 - リポジトリをClone済みであること。
