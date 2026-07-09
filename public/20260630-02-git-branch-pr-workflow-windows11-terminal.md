@@ -22,18 +22,18 @@ Gitを使い始めたばかりの頃は、「ブランチは作れたけど、�
 
 # 環境情報
 - OS：Windows11
-- ターミナルソフト：terminal
+- ターミナルソフト：Windows Terminal
 - 利用サービス：GitHub
 
 # 前提条件
 - Windows11を使用していること。
 - リポジトリが作成済みであること。
-- terminalでGitHubリポジトリにSSH接続できる状態であること。
+- Windows TerminalでGitHubリポジトリにSSH接続できる状態であること。
 - リポジトリをClone済みであること。
 
 # ブランチ作成
 
-- terminalを起動します。
+- Windows Terminalを起動します。
 
 - ローカルリポジトリのrootディレクトリに移動します。
 
