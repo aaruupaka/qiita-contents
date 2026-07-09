@@ -203,6 +203,14 @@ Gitを使い始めたばかりの頃は、「ブランチは作れたけど、�
   <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-08.png)
 
 ::: note info
+運用ルールによっては下記の項目を利用する場合もあります。
+- Create a merge commit
+- Rebase and merge
+
+今回はSquash and mergeで説明します。
+:::
+
+::: note info
 今回、自分自身でPRを作成、マージしようとしているため、レビューは省略しています。
 :::
 
