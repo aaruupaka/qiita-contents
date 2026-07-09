@@ -3,15 +3,17 @@ title: Git(GitHub)のブランチの作成からPR(プルリクエスト)の作�
 tags:
   - Git
   - GitHub
-  - 初学者向け
   - 初心者向け
   - 備忘録
+  - 初学者向け
 private: true
-updated_at: ''
-id: null
+updated_at: '2026-07-09T17:24:22+09:00'
+id: 679ae03e02e17922da70
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 今回は、Gitでブランチを作成してから、変更をコミットし、GitHubでPR(プルリクエスト)を作成・マージするまでの一連の流れを紹介します。
