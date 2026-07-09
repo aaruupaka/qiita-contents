@@ -13,6 +13,13 @@ organization_url_name: null
 slide: false
 ignorePublish: true
 ---
+# はじめに
+今回は、Gitでブランチを作成してから、変更をコミットし、GitHubでプルリクエスト（PR）を作成・マージするまでの一連の流れを紹介します。
+
+Gitを使い始めたばかりの頃は、「ブランチは作れたけど、その後は何をすればいいの？」と迷うことも少なくありません。
+
+この記事では、Windows 11のWindows Terminalを使用し、初学者向けに実際のコマンドと画面を交えながら、ブランチ作成からマージ後の後片付けまで順番に解説します。
+
 # 環境情報
 - OS：Windows11
 - ターミナルソフト：terminal
