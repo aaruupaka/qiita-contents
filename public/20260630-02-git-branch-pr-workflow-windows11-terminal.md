@@ -199,7 +199,7 @@ Gitを使い始めたばかりの頃は、「ブランチは作れたけど、�
   <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-07.png)
 
 # PRをマージする
-- `Merge pull request`ボタンの右側`▽`をクリックし、Margeの種類を`Squash and merge`に変更します。
+- `Merge pull request`ボタンの右側`▽`をクリックし、Mergeの種類を`Squash and merge`に変更します。
   <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-08.png)
 
 ::: note info
