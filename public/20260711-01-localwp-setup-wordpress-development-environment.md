@@ -148,3 +148,8 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
 
 - LocalWPの`Local sites`タブ内の`Open Site`ボタンを押下し、WordPresサイトのトップ画面に遷移することを確認します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-15.png)
+
+# おわりに
+本記事では、LocalWPのインストールからテーマ作成用のWordPressサイトを作成するところまで行いました。
+
+皆様のお役に立てましたら幸いです。
