@@ -2,7 +2,7 @@
 title: 20260711-02-windows-11-crash-investigation-with-chatgpt
 tags:
   - ''
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
