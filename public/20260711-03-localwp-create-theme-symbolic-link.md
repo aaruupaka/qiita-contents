@@ -6,7 +6,7 @@ tags:
   - WordPressテーマ
   - WordPress開発環境
   - Windows11
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
