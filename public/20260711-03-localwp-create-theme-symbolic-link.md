@@ -1,7 +1,11 @@
 ---
 title: Git管理しているWordPressテーマをLocal WPで利用する方法【シンボリックリンク】
 tags:
-  - ''
+  - LocalWP
+  - WordPress
+  - WordPressテーマ
+  - WordPress開発環境
+  - Windows11
 private: false
 updated_at: ''
 id: null
