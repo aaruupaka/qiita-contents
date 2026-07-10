@@ -34,6 +34,9 @@ ConoHa VPSでWordPressを構築するまでにいくつか記事を作成しま�
 
 https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
 
+# 環境情報
+- OS:Windows 11
+
 # localWPのダウンロード
 
 ## 公式サイトにアクセス
