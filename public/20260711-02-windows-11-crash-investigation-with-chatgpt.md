@@ -141,7 +141,7 @@ ChatGPTに提示された選択肢の中から今回は、
         2. 「メモリ診断」と入力する
         3. 「Windows メモリ診断」を起動する
 - 下記を選択し、診断を開始します。
-    ![alt text](images/20260619-01-03.png)
+    ![alt text](../articles/20260619-02-windows-11-crash/images/20260619-01-03.png)
     - 今すぐ再起動して問題の有無を確認する（推奨）
         :::warn
             未保存の変更がある場合は、保存してから実行しましょう
@@ -161,8 +161,8 @@ ChatGPTに提示された選択肢の中から今回は、
         MemoryDiagnostics-Results
         ```
     6. 結果を確認します。
-        ![alt text](images/20260619-01-04.png)
-        ![alt text](images/20260619-01-05.png)
+        ![alt text](../articles/20260619-02-windows-11-crash/images/20260619-01-04.png)
+        ![alt text](../articles/20260619-02-windows-11-crash/images/20260619-01-05.png)
         - メモリに関しては問題なさそうだとわかりました。
 
 # 結論
