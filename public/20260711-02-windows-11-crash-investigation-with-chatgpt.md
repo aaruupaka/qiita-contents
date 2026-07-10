@@ -22,12 +22,6 @@ agreed_posting_campaign_term: false
 
 今回は、この原因の調査を行った際の記録を公開します。
 
-# ChatGPTに相談だ！
-まず初めにChatGPTに相談しました。
-```
-https://chatgpt.com/c/6a34be63-fd60-83e8-ab28-e6269a45fdd4
-```
-
 # 信頼性モニターを見る
 ChatGPTに提示された選択肢の中から今回は、
 「信頼性モニターを確認すること」を行うことにします。
