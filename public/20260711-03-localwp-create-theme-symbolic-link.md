@@ -1,5 +1,5 @@
 ---
-title: 20260711-03-localwp-create-theme-symbolic-link
+title: Git管理しているWordPressテーマをLocal WPで利用する方法【シンボリックリンク】
 tags:
   - ''
 private: false
