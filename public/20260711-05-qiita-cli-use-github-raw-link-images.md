@@ -1,7 +1,10 @@
 ---
 title: Qiita CLIでGitHub管理下の画像を使用する方法【GitHub Raw Link】
 tags:
-  - ''
+  - QiitaCLI
+  - GitHub
+  - GitHubRawLink
+  - 備忘録
 private: true
 updated_at: ''
 id: null
