@@ -12,8 +12,8 @@ id: 679ae03e02e17922da70
 organization_url_name: null
 slide: false
 ignorePublish: false
-posting_campaign_uuid: null
-agreed_posting_campaign_term: false
+posting_campaign_uuid: 783b7a849caf11eefd91
+agreed_posting_campaign_term: true
 ---
 # はじめに
 今回は、Gitでブランチを作成してから、変更をコミットし、GitHubでPR(プルリクエスト)を作成・マージするまでの一連の流れを紹介します。
