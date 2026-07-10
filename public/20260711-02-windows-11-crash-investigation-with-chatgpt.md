@@ -1,5 +1,5 @@
 ---
-title: 20260711-02-windows-11-crash-investigation-with-chatgpt
+title: Windows 11が突然クラッシュ！ChatGPTと原因調査・復旧した記録
 tags:
   - ''
 private: true
