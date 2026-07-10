@@ -1,5 +1,5 @@
 ---
-title: Local WPでWordPress開発環境を構築する手順【Windows】
+title: Local WPでWordPress開発環境を構築する手順【Windows 11】
 tags:
   - LocalWP
   - WordPress
