@@ -1,5 +1,5 @@
 ---
-title: 20260711-04-discovering-windows-symbolic-link
+title: Windowsでシンボリックリンクが作れることを最近知った話
 tags:
   - ''
 private: true
