@@ -177,19 +177,19 @@ Gitを使い始めたばかりの頃は、「ブランチは作れたけど、�
 
 # PR(プルリクエスト)を作成する
 - リポジトリのトップページにアクセスします。
-  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-01.png)
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-01.png)
 
 - `Pull requests`タブを開きます。
-  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-02.png)
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-02.png)
 
 - `New pull request`ボタンを押下し、`Compare changes`画面を開きます。
-  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-03.png)
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-03.png)
 
 - 比較するブランチを選択し、差分を確認します。
-  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-04.png)
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-04.png)
 
 - 表示された差分で問題なければ、`Create pull request`ボタンを押下します。
-  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-05.png)
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-05.png)
 
 - `Open a pull request`画面で、下記の内容を入力後、`Create pull request`ボタンを押下します。
   - 設定内容
@@ -207,14 +207,14 @@ Gitを使い始めたばかりの頃は、「ブランチは作れたけど、�
           - 表示確認済み
           ```
 
-  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-06.png)
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-06.png)
 
 - PR(プルリクエスト)が作成されたことを確認します。
-  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-07.png)
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-07.png)
 
 # PR(プルリクエスト)をマージする
 - `Merge pull request`ボタンの右側`▽`をクリックし、Mergeの種類を`Squash and merge`に変更します。
-  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-08.png)
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-08.png)
 
 ::: note info
 運用ルールによっては下記の項目を利用する場合もあります。
@@ -229,18 +229,18 @@ Gitを使い始めたばかりの頃は、「ブランチは作れたけど、�
 :::
 
 - `Squash and merge`ボタンを押下します。
-  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-09.png)
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-09.png)
 
 - 自動生成された下記項目を確認し、問題がなければ`Confirm squash and merge`ボタンを押下します。
   - Commit message
   - Extended description
-  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-10.png)
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-10.png)
 
 - `Pull request successfully merged and closed`と出力されたことを確認します。
-  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-11.png)
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-11.png)
 
 - ブランチを削除する場合は、`Delete branch`ボタンを押下します。
-  <br>![alt text](../articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-12.png)
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-12.png)
 
 # ローカルリポジトリを最新の状態に更新する
 - terminalに戻ります。
