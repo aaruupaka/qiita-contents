@@ -1,7 +1,8 @@
 ---
 title: 20260711-06-qiita-cli-import-qiita-articles
 tags:
-  - ''
+  - QiitaCLI
+  - 備忘録
 private: true
 updated_at: ''
 id: null
