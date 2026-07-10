@@ -2,7 +2,7 @@
 title: 20260711-04-discovering-windows-symbolic-link
 tags:
   - ''
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
