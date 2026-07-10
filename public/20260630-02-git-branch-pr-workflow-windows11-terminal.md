@@ -243,7 +243,7 @@ Gitを使い始めたばかりの頃は、「ブランチは作れたけど、�
   <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260630-02-git-branch-pr-workflow-windows11-terminal/images/20260630-02-12.png)
 
 # ローカルリポジトリを最新の状態に更新する
-- terminalに戻ります。
+- Windows Terminalに戻ります。
 
 - mainブランチに切り替えます。
   - 実行コマンド
