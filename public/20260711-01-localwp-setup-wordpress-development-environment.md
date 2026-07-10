@@ -15,6 +15,19 @@ ignorePublish: true
 posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
+# はじめに
+先日、ConoHa VPS上でWordPressを構築しました。
+
+WordPressテーマに関して、公開されているテーマを使うことも考えましたが、
+今回は自作してみようと思い至りました。
+
+本番環境でテーマの開発を行うのはさすがに危険であるため、開発環境を準備します。
+
+今回は最も簡単にWordPressの開発環境を構築できると思われる
+`Local WP`を使用します。
+
+他の方のお役に立てましたら幸いです。
+
 # localWPのダウンロード
 
 ## 公式サイトにアクセス
