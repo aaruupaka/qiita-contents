@@ -108,7 +108,7 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-05.png)
 
 
-## テーマ作成用のローカルWPを作成する。
+## テーマ作成用のWordPressサイトを作成する
 - `+ Create a new site`ボタンを押下します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-06.png)
 
