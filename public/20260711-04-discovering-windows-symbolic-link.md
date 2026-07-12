@@ -38,3 +38,14 @@ Local WP側にも反映されるため、WordPressテーマを最新の状態に
 例えば、`C:\Git\my-theme` にあるWordPressテーマを、`Local WP` のテーマディレクトリにシンボリックリンクとして配置すると、実際には同じファイルを参照しているため、Git管理しているテーマを編集するだけで、Local WP側にも変更が反映されます。
 
 そのため、ファイルをコピーし直す手間がなくなり、開発効率を向上させることができます。
+
+# シンボリックリンク作成コマンドの文法
+- 文法
+```cmd
+mklink /D "シンボリックリンク作成先のパス" "シンボリックリンクの参照先のパス"
+```
+
+- 実行コマンド例
+  ```cmd
+  mklink /D "C:\Users\testuser\Local Sites\wordpress-theme-dev\app\public\wp-content\themes\aaruupaka-prot" "D:\a_pjs\2026060301_aaruupaka_wordpress-theme-aaruupaka-prot\wordpress-theme-aaruupaka-prot\aaruupaka-prot"
+  ```
