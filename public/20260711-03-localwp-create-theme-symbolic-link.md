@@ -15,7 +15,7 @@ ignorePublish: true
 posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
-# 概要
+# はじめに
 LocalWPのテーマフォルダ配下に、
 git管理上のaaruupaka-protのテーマフォルダの
 シンボリックリンクを作成します。
