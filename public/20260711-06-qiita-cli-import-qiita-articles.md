@@ -37,26 +37,26 @@ Qiita CLIの導入したので、すでに公開済みの記事の取り込み�
 - Windows Terminalを起動します。
 
 - `cd`コマンドでローカルリポジトリのルートディレクトリに移動します。
-    - 実行コマンド
-        ```bash
-        cd C:\git\ルートディレクトリ\
-        ```
-    - 実行コマンド例
-        ```bash
-        cd C:\git\qiita-contents\
-        ```
+  - 実行コマンド
+      ```bash
+      cd C:\git\ルートディレクトリ\
+      ```
+  - 実行コマンド例
+      ```bash
+      cd C:\git\qiita-contents\
+      ```
 
 - GitHubリポジトリ(remote)の内容をローカルに取り込みます。
-    - 実行コマンド
-        ```bash
-        git pull
-        ```
-    - 実行結果
-        ```
-        Already up to date.
-        ```
-    - 確認事項
-        - `Already up to date.`と出力されるか、変更が取り込まれること。
+  - 実行コマンド
+      ```bash
+      git pull
+      ```
+  - 実行結果
+      ```
+      Already up to date.
+      ```
+  - 確認事項
+      - `Already up to date.`と出力されるか、変更が取り込まれること。
 
 # すでに作成済みの記事の取り込み
 - `pwd`コマンドを実行し、ローカルリポジトリのルートディレクトリにいることを確認します。
