@@ -25,16 +25,16 @@ Qiita CLIの導入したので、すでに公開済みの記事の取り込み�
 - Nodeバージョン:v22.4.0
 - npmバージョン:10.2.3
 - npxバージョン:10.2.3
-- CLIツール:terminal
+- CLIツール:Windows Terminal
 
 # 前提
 - Qiita CLIのインストールが完了していること
 - Qiitaの記事管理用のリポジトリが作成されていること
 - Qiita CLI と　GitHubリポジトリの連携が完了していること
-- terminal上でQiitaにログインしていること
+- Windows Terminal上でQiitaにログインしていること
 
 # 事前準備
-- terminalを起動します。
+- Windows Terminalを起動します。
 - `cd`コマンドでローカルリポジトリのルートディレクトリに移動します。
     - 実行コマンド
         ```bash
