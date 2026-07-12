@@ -2,7 +2,7 @@
 title: 20260713-01-ai-usage-review-first-half-2026
 tags:
   - ''
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
