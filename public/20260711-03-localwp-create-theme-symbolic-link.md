@@ -37,15 +37,15 @@ Local WPでWordPressテーマを開発する場合、Gitで管理しているテ
         ```
 
 ## シンボリックリンクの作成
-- 管理者権限でコマンドプロンプトを起動する。
-- シンボリックリンクを作成する。
+- 管理者権限でコマンドプロンプトを起動します。
+- シンボリックリンクを作成します。
     - 実行コマンド
         ```cmd
         mklink /D "C:\Users\<Windowsユーザー名>\Local Sites\<サイト名>\app\public\wp-content\themes\aaruupaka-prot" "D:\a_pjs\2026060301_aaruupaka_wordpress-theme-aaruupaka-prot\wordpress-theme-aaruupaka-prot\aaruupaka-prot"
         ```
         - 文法
             ```cmd
-            mklink /D "LocalWP側に作るリンク" "Git管理しているテーマ本体"
+            mklink /D "LocalWPのテーマディレクトリのパス" "Git管理しているテーマ本体のパス"
             ```
     - 実行コマンド例
         - ユーザー名：testuser
