@@ -42,10 +42,14 @@ Local WP側にも反映されるため、WordPressテーマを最新の状態に
 # シンボリックリンク作成コマンドの文法
 - 文法
 ```cmd
-mklink /D "シンボリックリンク作成先のパス" "シンボリックリンクの参照先のパス"
+mklink /D "作成するシンボリックリンクのパス" "リンク元となるフォルダのパス"
 ```
 
 - 実行コマンド例
+
+「2026071201-sample-folder」内に、「2026071201-sample-folder」のシンボリックリンクを作成する場合
+  - 作成するシンボリックリンクのパス：D:\a_pjs\2026071202-symbolic-link-folder\2026071201-sample-folder
+  - リンク元となるフォルダのパス：D:\a_pjs\2026071201-sample-folder
   ```cmd
-  mklink /D "C:\Users\testuser\Local Sites\wordpress-theme-dev\app\public\wp-content\themes\aaruupaka-prot" "D:\a_pjs\2026060301_aaruupaka_wordpress-theme-aaruupaka-prot\wordpress-theme-aaruupaka-prot\aaruupaka-prot"
+    mklink /D "D:\a_pjs\2026071202-symbolic-link-folder\2026071201-sample-folder" "D:\a_pjs\2026071201-sample-folder"
   ```
