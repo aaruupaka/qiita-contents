@@ -14,4 +14,10 @@ ignorePublish: true
 posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
-# new article body
+# はじめに
+Qiita CLIを利用してGitHubで管理している記事を公開した際、画像が正しく表示されないという問題に遭遇しました。
+
+原因を調べたところ、相対パスでの画像パスの指定では表示できず、GitHub Raw Linkを指定する必要があることが分かりました。
+
+本記事では、GitHub Raw Linkの取得方法と、Qiita CLIで画像を表示する方法を紹介します。
+
