@@ -16,9 +16,11 @@ posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
 # はじめに
-LocalWPのテーマフォルダ配下に、
-git管理上のaaruupaka-protのテーマフォルダの
-シンボリックリンクを作成します。
+Local WPでWordPressテーマを開発する場合、Gitで管理しているテーマをそのままLocal WPのテーマディレクトリへ配置して運用したくなることがあります。
+
+しかし、開発用のディレクトリ構成によっては、Gitリポジトリをそのまま配置できなかったり、管理が煩雑になったりすることがあります。
+
+そこで本記事では、Windowsのシンボリックリンクを利用して、Git管理しているテーマとLocal WPを連携する方法を紹介します。
 
 # 作業手順
 ## パスの確認
