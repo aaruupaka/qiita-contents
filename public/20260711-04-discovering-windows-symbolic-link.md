@@ -53,3 +53,58 @@ mklink /D "作成するシンボリックリンクのパス" "リンク元とな
   ```cmd
     mklink /D "D:\a_pjs\2026071202-symbolic-link-folder\2026071201-sample-folder" "D:\a_pjs\2026071201-sample-folder"
   ```
+
+# シンボリックリンクの作成手順
+- コマンドプロンプトを管理者権限で起動します。
+
+- 下記のパスを確認します。
+  - 作成するシンボリックリンクのパス
+  - リンク元となるフォルダのパス
+
+- シンボリックリンク作成コマンドを実行します。
+  - 実行コマンド例
+    ```cmd
+    mklink /D "D:\a_pjs\2026071202-symbolic-link-folder\2026071201-sample-folder" "D:\a_pjs\2026071201-sample-folder"
+    ```
+  - 実行結果例
+    ```cmd
+    D:\a_pjs\2026071202-symbolic-link-folder\2026071201-sample-folder <<===>> D:\a_pjs\2026071201-sample-folder のシンボリック リンクが作成されました
+    ```
+
+- シンボリックリンクが作成されたことを確認します。
+  - 実行コマンド例
+    ```cmd
+    dir D:\a_pjs\2026071202-symbolic-link-folder
+    ```
+  - 実行結果例
+    ```cmd
+     ドライブ D のボリューム ラベルは MyDE です
+     ボリューム シリアル番号は nnnn-nnnn です
+
+     D:\a_pjs\2026071202-symbolic-link-folder のディレクトリ
+
+    2026/07/12  19:12    <DIR>          .
+    2026/07/12  19:07    <DIR>          ..
+    2026/07/12  19:12    <SYMLINKD>     2026071201-sample-folder [D:\a_pjs\2026071201-sample-folder]
+                  0 個のファイル                   0 バイト
+                  3 個のディレクトリ  984,641,675,264 バイトの空き領域
+    ```
+
+- シンボリックリックからリンク先のファイルを参照できるかを確認します。
+  - 実行コマンド例
+    ```cmd
+    dir D:\a_pjs\2026071202-symbolic-link-folder\2026071201-sample-folder
+    ```
+  - 実行結果例
+    ```cmd
+     ドライブ D のボリューム ラベルは MyDE です
+     ボリューム シリアル番号は 42F1-9EE3 です
+
+     D:\a_pjs\2026071202-symbolic-link-folder\2026071201-sample-folder のディレクトリ
+
+    2026/07/12  19:18    <DIR>          .
+    2026/07/12  19:07    <DIR>          ..
+    2026/07/12  19:18                 0 index.txt
+                  1 個のファイル                   0 バイト
+                  2 個のディレクトリ  984,641,671,168 バイトの空き領域
+    ```
