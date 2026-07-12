@@ -48,3 +48,24 @@ GitHub Raw Linkとは、GitHub上のファイルをHTMLページではなく、
 例えば、画像ファイルであれば、
 ブラウザでアクセスすると画像だけが表示されるURLになります。
 
+## GitHub Raw Linkを取得する手順
+
+GitHub Raw Linkは下記の手順で手に入れることができます。
+1. ブラウザ版のGitHub上で画像を表示させます。
+2. 画像を右クリック後`画像アドレスをコピー`を選択します。
+
+取得すると下記のようなリンクが取得できます。
+```
+https://raw.githubusercontent.com/aaruupaka/qiita-contents/9e5f6c7f88b737ef4a6dfcac740e46fe1a843ac9/articles/20260711-05-qiita-cli-use-github-raw-link-images/images/20260711-05-01.png
+```
+
+`https://raw.githubusercontent.com/aaruupaka/qiita-contents/9e5f6c7f88b737ef4a6dfcac740e46fe1a843ac9`
+部分までは別画像であっても共通なので、一度自分のGitHub Raw Linkを取得してしまえば、それ以降を書き換えることで表示できます。
+
+また、GitHub Raw Linkは下記の要素で構成されているようです。
+```
+https://raw.githubusercontent.com/<ユーザー名>/<リポジトリ名>/<ブランチ名>/<画像パス>
+```
+
+そのため、極論、ブラウザからGitHub Raw Linkを取得するまでもなく、対応する情報に書き換えれば問題なく取得できます。
+
