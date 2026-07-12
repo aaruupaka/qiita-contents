@@ -31,3 +31,13 @@ Qiita上で画像が表示されませんでした。
 ![alt text](../articles/20260711-05-qiita-cli-use-github-raw-link-images/images/20260711-05-01.png)
 ```
 
+# 原因と解決方法
+原因は相対パスで画像パスを指定していたことでした。
+
+Qiita CLIを利用してGitHubで記事を管理すること自体はできますが、
+GitHubリポジトリのコンテンツを相対パスで指定して表示することはできませんでした。
+
+GitHub管理下の画像ファイルをQiitaの記事上で表示させたい場合、
+画像そのものへ直接アクセスできるURLである、
+`GitHub Raw Link`を使用する必要がありました。
+
