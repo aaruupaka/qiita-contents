@@ -21,3 +21,13 @@ Qiita CLIを利用してGitHubで管理している記事を公開した際、�
 
 本記事では、GitHub Raw Linkの取得方法と、Qiita CLIで画像を表示する方法を紹介します。
 
+# 発生した事象
+GitHubで管理している画像をMarkdownに記載して記事を投稿したところ、
+Qiita上で画像が表示されませんでした。
+
+例えば、以下のように相対パスで画像リンクを指定していたのですが、うまく表示されませんでした。
+
+```md
+![alt text](../articles/20260711-05-qiita-cli-use-github-raw-link-images/images/20260711-05-01.png)
+```
+
