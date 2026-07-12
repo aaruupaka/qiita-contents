@@ -24,12 +24,14 @@ Local WPでWordPressテーマを開発する場合、Gitで管理しているテ
 
 # 作業手順
 ## パスの確認
-- パスの確認を行います。
+- パスの確認を行います。下記のパス情報が必要です。
+  - Git管理しているテーマ本体のパス
+  - LocalWPのテーマディレクトリのパス
     - Git管理しているテーマ本体のパスの例
         ```text
         D:\a_pjs\2026060301_aaruupaka_wordpress-theme-aaruupaka-prot\wordpress-theme-aaruupaka-prot\aaruupaka-prot
         ```
-    - LocalWPのテーマ配置先のパスの例
+    - LocalWPのテーマディレクトリのパスの例
         ```text
         C:\Users\<Windowsユーザー名>\Local Sites\<サイト名>\app\public\wp-content\themes
         ```
