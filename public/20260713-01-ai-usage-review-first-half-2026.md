@@ -1,7 +1,8 @@
 ---
-title: 20260713-01-ai-usage-review-first-half-2026
+title: 【2026年上半期】AIを活用を通してして感じたメリットと課題
 tags:
-  - ''
+  - AI
+  - ChatGPT
 private: true
 updated_at: ''
 id: null
