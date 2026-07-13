@@ -1,12 +1,12 @@
 ---
 title: Windowsでシンボリックリンクが作れることを最近知った話
 tags:
-  - Windows11
   - シンボリックリンク
   - 備忘録
+  - Windows11
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-07-13T23:07:16+09:00'
+id: 69779377d90e31b8298b
 organization_url_name: null
 slide: false
 ignorePublish: false
