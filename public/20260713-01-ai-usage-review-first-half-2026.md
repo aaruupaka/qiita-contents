@@ -11,15 +11,6 @@ ignorePublish: true
 posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
-# memo
-めっちゃネガティブよりな内容な気がする
-後結構箇条書きかも
-
-タイトルは作成後決定
-なんとなく、「利用するメリットと不安」みたいな感じにしたい
-
-しかし、不安とするよりは課題とするのが方向性としては建設的な気がする
-
 # はじめに
 「Qiita Tech Festa 2026」のQiita運営テーマに「【2026年上半期】AI活用を振り返ろう！」というものがあったので、テーマの表題通りに振り返りを使用かなと思っています。
 
