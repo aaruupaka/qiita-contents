@@ -113,7 +113,7 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
 - `+ Create a new site`ボタンを押下します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-06.png)
 
-- `Create a site`画面で`Create a new site`を選択した状態で、`Contine`ボタンを押下します。
+- `Create a site`画面で`Create a new site`を選択した状態で、`Continue`ボタンを押下します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-07.png)
 
 - `What's your site's name?`画面では、任意のサイト名を入力し、`Continue`ボタンを押下します。
@@ -146,13 +146,13 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
 `WP Admin`ボタンを押下するとWordPress管理画面が開きます。
 :::
 
-- `Set up WordPress`画面で設定したアカウント情報を入力し。`Log in`ボタンを押下します。
+- `Set up WordPress`画面で設定したアカウント情報を入力し、`Log in`ボタンを押下します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-13.png)
 
 - ダッシュボードに遷移することを確認します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-14.png)
 
-- Local WPの`Local sites`タブ内の`Open Site`ボタンを押下し、WordPresサイトのトップ画面に遷移することを確認します。
+- Local WPの`Local sites`タブ内の`Open Site`ボタンを押下し、WordPressサイトのトップ画面に遷移することを確認します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-15.png)
 
 ::: note info
