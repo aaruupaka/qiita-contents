@@ -1,11 +1,11 @@
 ---
 title: Qiita CLI導入後に最初にやること【公開済み記事の取り込み】
 tags:
-  - QiitaCLI
   - 備忘録
+  - QiitaCLI
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-07-14T02:10:13+09:00'
+id: 09f3d82c8d220079c660
 organization_url_name: null
 slide: false
 ignorePublish: false
