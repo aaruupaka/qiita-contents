@@ -27,9 +27,9 @@ WordPressテーマに関して、公開されているテーマを使うこと�
 `Local WP`を使用します。
 
 本記事では下記の内容を記載しています。
-- LocalWPのダウンロード
-- LocalWPのインストール
-- LocalWPの初回セットアップ
+- Local WPのダウンロード
+- Local WPのインストール
+- Local WPの初回セットアップ
 - テーマ作成用のWordPressサイトを作成する
 
 他の方のお役に立てましたら幸いです。
@@ -43,14 +43,14 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
 # 環境情報
 - OS:Windows 11
 
-# localWPのダウンロード
+# Local WPのダウンロード
 
 ## 公式サイトにアクセス
 - 下記URLにアクセスします。
     - URL : `https://localwp.com/`
         <br>![alt text](../articles/20260603-01-windows-11-download-localwp/images/20260603-01-02.png)
 
-## localWPダウンロード
+## Local WPダウンロード
 - `DOWNLOAD FOR FREE`ボタンを押下します。
     <br>![alt text](../articles/20260603-01-windows-11-download-localwp/images/20260603-01-01.png)
 
@@ -62,7 +62,7 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
 
 - `local-10.1.0-windows.exe`がダウンロードされたことを確認します。
 
-# localWPのインストール
+# Local WPのインストール
 
 ## インストール
 - `local-10.1.0-windows.exe`を起動します。
@@ -82,13 +82,13 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
 - `Localセットアップ ウィザードは完了しました。`画面が出たら`完了(F)`ボタンを押下します。
     <br>![alt text](../articles/20260603-02-windows-11-install-localwp/images/20260503-02-05.png)
 
-- LocalWPが起動することを確認します。
+- Local WPが起動することを確認します。
     <br>![alt text](../articles/20260603-02-windows-11-install-localwp/images/20260503-02-06.png)
 
 # Local WP 初回セットアップ
 
 ## 初回起動時
-- LocalWPが起動します。
+- Local WPが起動します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-01.png)
 
 - `Terms of Service`の内容を確認し、チェックボックスを有効化、`I agree`ボタンを押下します。
@@ -96,7 +96,7 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
 
 - `Is it ok to enable error reports?`では、任意のボタンを押下します。
     - 私は`Turn on error reporting`を選択しました。
-    - 仮に本番環境DBのコピー等、機密情報をlocalWP上で取り扱う予定がある場合は、`No, thanks`を選択するのが良いと思います。
+    - 仮に本番環境DBのコピー等、機密情報をLocal WP上で取り扱う予定がある場合は、`No, thanks`を選択するのが良いと思います。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-03.png)
 
 - `IS it ok to enable usage reporting?`では、任意のボタンを押下します。
@@ -104,7 +104,7 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-04.png)
 
 
-- LocalWPの`Local sites`タブが表示されることを確認します。
+- Local WPの`Local sites`タブが表示されることを確認します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-05.png)
 
 
@@ -137,7 +137,7 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
 - 環境構築が完了したことを確認します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-11.png)
 
-- LocalWPの`Local sites`タブ内の`WP Admin`ボタンを押下し、WordPressのログイン画面に遷移することを確認します。
+- Local WPの`Local sites`タブ内の`WP Admin`ボタンを押下し、WordPressのログイン画面に遷移することを確認します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-12.png)
 
 - `Set up WordPress`画面で設定したアカウント情報を入力し。`Log in`ボタンを押下します。
@@ -146,10 +146,10 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
 - ダッシュボードに遷移することを確認します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-14.png)
 
-- LocalWPの`Local sites`タブ内の`Open Site`ボタンを押下し、WordPresサイトのトップ画面に遷移することを確認します。
+- Local WPの`Local sites`タブ内の`Open Site`ボタンを押下し、WordPresサイトのトップ画面に遷移することを確認します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-15.png)
 
 # おわりに
-本記事では、LocalWPのインストールからテーマ作成用のWordPressサイトを作成するところまで行いました。
+本記事では、Local WPのインストールからテーマ作成用のWordPressサイトを作成するところまで行いました。
 
 皆様のお役に立てましたら幸いです。
