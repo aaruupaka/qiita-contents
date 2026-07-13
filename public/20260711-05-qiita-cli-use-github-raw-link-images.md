@@ -39,8 +39,6 @@ GitHubリポジトリのコンテンツを相対パスで指定して表示す�
 
 QiitaはGitHubリポジトリ内の相対パスを解決できないため、画像を表示するにはインターネット上から直接取得できるURL（`GitHub Raw Link`）が必要になります。
 
-
-
 ## GitHub Raw Linkとは
 GitHub Raw Linkとは、GitHub上のファイルをHTMLページではなく、
 ファイルそのものとして取得するためのURLです。
@@ -62,7 +60,11 @@ https://raw.githubusercontent.com/aaruupaka/qiita-contents/9e5f6c7f88b737ef4a6df
 `https://raw.githubusercontent.com/aaruupaka/qiita-contents/9e5f6c7f88b737ef4a6dfcac740e46fe1a843ac9`
 部分までは別画像であっても共通なので、一度自分のGitHub Raw Linkを取得してしまえば、それ以降を書き換えることで表示できます。
 
-また、GitHub Raw Linkは下記の要素で構成されているようです。
+::: note info
+上記例のリンクの`9e5f6c7f88b737ef4a6dfcac740e46fe1a843ac9`部分は「コミットハッシュ」であるようです。
+:::
+
+また、GitHub Raw Linkは下記の要素でも構築できるようです。
 ```
 https://raw.githubusercontent.com/<ユーザー名>/<リポジトリ名>/<ブランチ名>/<画像パス>
 ```
