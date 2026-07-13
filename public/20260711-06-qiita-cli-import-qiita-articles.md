@@ -3,14 +3,14 @@ title: Qiita CLI導入後に最初にやること【公開済み記事の取り�
 tags:
   - QiitaCLI
   - 備忘録
-private: true
+private: false
 updated_at: ''
 id: null
 organization_url_name: null
 slide: false
 ignorePublish: false
-posting_campaign_uuid: null
-agreed_posting_campaign_term: false
+posting_campaign_uuid: 783b7a849caf11eefd91
+agreed_posting_campaign_term: true
 ---
 ---
 # はじめに
