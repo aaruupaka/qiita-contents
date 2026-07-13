@@ -12,7 +12,7 @@ id: null
 organization_url_name: null
 slide: false
 ignorePublish: false
-posting_campaign_uuid: 783b7a849caf11eefd91
+posting_campaign_uuid: 9d632f51614ebd7b333c
 agreed_posting_campaign_term: true
 ---
 # はじめに
