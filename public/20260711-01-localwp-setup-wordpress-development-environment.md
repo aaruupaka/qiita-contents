@@ -134,7 +134,7 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
                 - デフォルト値
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-10.png)
 
-- UATが表示された場合は、適宜許可します。
+- ユーザーアカウント制御（UAC）が表示された場合は、適宜許可します。
 
 - 環境構築が完了したことを確認します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-11.png)
