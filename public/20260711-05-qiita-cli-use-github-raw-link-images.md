@@ -1,5 +1,5 @@
 ---
-title: Qiita CLIでGitHub管理下の画像を使用する方法【GitHub Raw Link】
+title: Qiita CLIでGitHubリポジトリで管理している画像を使用する方法【GitHub Raw Link】
 tags:
   - QiitaCLI
   - GitHub
@@ -15,14 +15,14 @@ posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
 # はじめに
-Qiita CLIを利用してGitHubで管理している記事を公開した際、画像が正しく表示されないという問題に遭遇しました。
+Qiita CLIを利用してGitHubリポジトリで管理している記事を公開した際、画像が正しく表示されないという問題に遭遇しました。
 
 原因を調べたところ、相対パスでの画像パスの指定では表示できず、GitHub Raw Linkを指定する必要があることが分かりました。
 
 本記事では、GitHub Raw Linkの取得方法と、Qiita CLIで画像を表示する方法を紹介します。
 
 # 発生した事象
-GitHubで管理している画像をMarkdownに記載して記事を投稿したところ、
+GitHubリポジトリで管理している画像をMarkdownに記載して記事を投稿したところ、
 Qiita上で画像が表示されませんでした。
 
 例えば、以下のように相対パスで画像リンクを指定していたのですが、うまく表示されませんでした。
@@ -34,13 +34,13 @@ Qiita上で画像が表示されませんでした。
 # 原因と解決方法
 原因は相対パスで画像パスを指定していたことでした。
 
-Qiita CLIを利用してGitHubで記事を管理すること自体はできますが、
+Qiita CLIを利用してGitHubリポジトリで記事を管理すること自体はできますが、
 GitHubリポジトリのコンテンツを相対パスで指定して表示することはできませんでした。
 
 QiitaはGitHubリポジトリ内の相対パスを解決できないため、画像を表示するにはインターネット上から直接取得できるURL（`GitHub Raw Link`）が必要になります。
 
 ## GitHub Raw Linkとは
-GitHub Raw Linkとは、GitHub上のファイルをHTMLページではなく、
+GitHub Raw Linkとは、GitHubリポジトリ上のファイルをHTMLページではなく、
 ファイルそのものとして取得するためのURLです。
 
 例えば、画像ファイルであれば、
@@ -72,4 +72,4 @@ https://raw.githubusercontent.com/<ユーザー名>/<リポジトリ名>/<ブラ
 そのため、URLの構成が分かれば、ブラウザから取得しなくても組み立てることも可能です。
 
 # おわりに
-今回はGitHub Raw Linkを使用し、Qiita CLIで管理しているQiita記事でGitHub管理下の画像を使用する方法をまとめました。
+今回はGitHub Raw Linkを使用し、Qiita CLIで管理しているQiita記事でGitHubリポジトリで管理している画像を使用する方法をまとめました。
