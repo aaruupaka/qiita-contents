@@ -142,6 +142,10 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
 - Local WPの`Local sites`タブ内の`WP Admin`ボタンを押下し、WordPressのログイン画面に遷移することを確認します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-12.png)
 
+::: note info
+`WP Admin`ボタンを押下するとWordPress管理画面が開きます。
+:::
+
 - `Set up WordPress`画面で設定したアカウント情報を入力し。`Log in`ボタンを押下します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-13.png)
 
@@ -150,6 +154,10 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
 
 - Local WPの`Local sites`タブ内の`Open Site`ボタンを押下し、WordPresサイトのトップ画面に遷移することを確認します。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-15.png)
+
+::: note info
+`Open Site`ボタンを押下するとWprdPressで構築したサイトのトップページが開きます。
+:::
 
 # おわりに
 本記事では、Local WPのインストールからテーマ作成用のWordPressサイトを作成するところまで行いました。
