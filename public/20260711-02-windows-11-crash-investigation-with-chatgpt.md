@@ -7,7 +7,7 @@ tags:
   - Windows11
   - ChatGPT
 private: false
-updated_at: '2026-07-14T02:18:24+09:00'
+updated_at: '2026-07-14T02:31:07+09:00'
 id: 679d8f984b45ab5f7a1a
 organization_url_name: null
 slide: false
