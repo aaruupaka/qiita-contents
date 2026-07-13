@@ -23,18 +23,18 @@ Qiita CLIでは、公開済みの記事をローカルで管理できます。�
 なお、下書き状態の記事は取り込めないようなので、それについては手動で行う必要がある点には注意が必要です。
 
 # 作業環境
-- OS:Windows 11 Home
-- バージョン:22h2
-- Node.js管理ツール:Nodist
-- Nodeバージョン:v22.4.0
-- npmバージョン:10.2.3
-- npxバージョン:10.2.3
-- CLIツール:Windows Terminal
+- OS: Windows 11 Home
+- バージョン: 22h2
+- Node.js管理ツール: Nodist
+- Nodeバージョン: v22.4.0
+- npmバージョン: 10.2.3
+- npxバージョン: 10.2.3
+- CLIツール: Windows Terminal
 
 # 前提
 - Qiita CLIのインストールが完了していること
 - Qiitaの記事管理用のリポジトリが作成されていること
-- Qiita CLI と　GitHubリポジトリの連携が完了していること
+- `Qiita CLI`と`GitHubリポジトリ`の連携が完了していること
 - Windows Terminal上でQiitaにログインしていること
 
 # 事前準備
@@ -95,7 +95,7 @@ Qiita CLIでは、公開済みの記事をローカルで管理できます。�
     ls C:\git\qiita-contents\public
     ```
   - 確認事項
-    - 現在公開済みの記事数と、追加されたファイル数が一致していること。
+    - 現在公開済みの記事数と、publicフォルダ配下のファイル数が一致していること。
 
 # おわりに
 今回は、Qiita CLIの導入後、一番最初にやることと題し、
