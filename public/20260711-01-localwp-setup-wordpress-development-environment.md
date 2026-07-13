@@ -96,6 +96,7 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
 
 - `Is it ok to enable error reports?`では、任意のボタンを押下します。
     - 私は`Turn on error reporting`を選択しました。
+    - 通常のテーマ開発であれば、どちらを選択しても問題ありません。
     - 仮に本番環境DBのコピー等、機密情報をLocal WP上で取り扱う予定がある場合は、`No, thanks`を選択するのが良いと思います。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-03.png)
 
