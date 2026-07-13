@@ -48,13 +48,13 @@ ChatGPTに提示された選択肢の中から
     3. 「信頼性履歴の表示」
 
 - 下記のように表示されました。
-    ![alt text](../images/20260619-01-01.png)
+    ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260619-02-windows-11-crash/images/20260619-01-01.png)
     - 今回、重要なエラーは5件起きていたようです。
         - しかし、そのうち`SYNCROOM`はPC再起動後に間違えて起動した上、エラーが起きたものなので、今回は関係ないと判断します。
     - また、余談ですが、今日だけでなく思いのほかエラーが起きているなという印象を抱きました。
 
 - `Windowsの動作が停止しました`の詳細を開きます。
-    ![alt text](../images/20260619-01-02.png)
+    ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260619-02-windows-11-crash/images/20260619-01-02.png)
     ```
     このコンピューターはバグチェック後、再起動されました。バグチェック: 0x0000001a (0x0000000000006000, 0xffffca85ab9a7870, 0xffffffffc0000225, 0x0000000000001000)。ダンプの保存先: C:\WINDOWS\Minidump\061926-16171-01.dmp。レポート ID: fef2a33f-9dfa-41e8-8f62-85dd13d3a6dc。
     ```
