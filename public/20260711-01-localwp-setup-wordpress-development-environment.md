@@ -1,14 +1,14 @@
 ---
 title: Local WPでWordPress開発環境を構築する手順【Windows 11】
 tags:
-  - LocalWP
   - WordPress
-  - WordPressテーマ
   - 開発環境構築
+  - WordPressテーマ
   - Windows11
+  - LocalWP
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-07-13T23:07:16+09:00'
+id: 482f4db3a75f2402b123
 organization_url_name: null
 slide: false
 ignorePublish: false
