@@ -1,5 +1,5 @@
 ---
-title: 今回は、Qiita CLIの導入後、一番最初にやること【公開済みの記事の取り込み】
+title: Qiita CLI導入後に最初にやること【公開済み記事の取り込み】
 tags:
   - QiitaCLI
   - 備忘録
