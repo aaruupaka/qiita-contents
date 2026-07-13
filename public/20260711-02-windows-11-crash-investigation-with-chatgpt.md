@@ -161,7 +161,7 @@ DISM /Online /Cleanup-Image /RestoreHealth
         3. 「Windows メモリ診断」を起動する
 
 - 下記を選択し、診断を開始します。
-    ![alt text](../articles/20260619-02-windows-11-crash/images/20260619-01-03.png)
+    ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260619-02-windows-11-crash/images/20260619-01-03.png)
     - 今すぐ再起動して問題の有無を確認する（推奨）
 
 - 診断が完了するまで待機します。
@@ -180,8 +180,8 @@ DISM /Online /Cleanup-Image /RestoreHealth
         MemoryDiagnostics-Results
         ```
     6. 結果を確認します。
-        ![alt text](../articles/20260619-02-windows-11-crash/images/20260619-01-04.png)
-        ![alt text](../articles/20260619-02-windows-11-crash/images/20260619-01-05.png)
+        ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260619-02-windows-11-crash/images/20260619-01-04.png)
+        ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260619-02-windows-11-crash/images/20260619-01-05.png)
         - メモリに関しては問題なさそうだとわかりました。
 
 # 結論
