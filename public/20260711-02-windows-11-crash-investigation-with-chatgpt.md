@@ -1,5 +1,5 @@
 ---
-title: Windows 11が突然クラッシュ！ChatGPTと原因調査・復旧した記録
+title: Windows 11が突然クラッシュ！ChatGPTと原因調査を進めた記録
 tags:
   - Windows11
   - ChatGPT
