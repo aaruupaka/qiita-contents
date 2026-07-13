@@ -37,9 +37,9 @@ Qiita上で画像が表示されませんでした。
 Qiita CLIを利用してGitHubで記事を管理すること自体はできますが、
 GitHubリポジトリのコンテンツを相対パスで指定して表示することはできませんでした。
 
-GitHub管理下の画像ファイルをQiitaの記事上で表示させたい場合、
-画像そのものへ直接アクセスできるURLである、
-`GitHub Raw Link`を使用する必要がありました。
+QiitaはGitHubリポジトリ内の相対パスを解決できないため、画像を表示するにはインターネット上から直接取得できるURL（`GitHub Raw Link`）が必要になります。
+
+
 
 ## GitHub Raw Linkとは
 GitHub Raw Linkとは、GitHub上のファイルをHTMLページではなく、
