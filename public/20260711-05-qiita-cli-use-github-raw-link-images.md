@@ -69,7 +69,7 @@ https://raw.githubusercontent.com/aaruupaka/qiita-contents/9e5f6c7f88b737ef4a6df
 https://raw.githubusercontent.com/<ユーザー名>/<リポジトリ名>/<ブランチ名>/<画像パス>
 ```
 
-そのため、極論、ブラウザからGitHub Raw Linkを取得するまでもなく、対応する情報に書き換えれば問題なく取得できます。
+そのため、URLの構成が分かれば、ブラウザから取得しなくても組み立てることも可能です。
 
 # おわりに
 今回はGitHub Raw Linkを使用し、Qiita CLIで管理しているQiita記事でGitHub管理下の画像を使用する方法をまとめました。
