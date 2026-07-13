@@ -3,14 +3,14 @@ title: 【2026年上半期】AIを活用を通してして感じたメリット�
 tags:
   - AI
   - ChatGPT
-private: true
+private: false
 updated_at: ''
 id: null
 organization_url_name: null
 slide: false
 ignorePublish: false
-posting_campaign_uuid: null
-agreed_posting_campaign_term: false
+posting_campaign_uuid: 9d632f51614ebd7b333c
+agreed_posting_campaign_term: true
 ---
 # はじめに
 「Qiita Tech Festa 2026」のQiita運営テーマに「【2026年上半期】AI活用を振り返ろう！」というものがあったので、テーマの表題通りに振り返ろうかなと思っています。
