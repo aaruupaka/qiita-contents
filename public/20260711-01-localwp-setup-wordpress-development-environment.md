@@ -120,6 +120,7 @@ https://qiita.com/aaruupaka/items/ed1fa439da66510d38b9
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-08.png)
 
 - `Choose your environment`画面では、`Custom`を選択後、自身の環境に最も近しい内容を選択し、`Continue`ボタンを押下します。
+    - 今回は本番環境に近いPHPバージョンなどを指定したかったため、Customを選択しました。
     <br>![alt text](../articles/20260603-03-local-wp-first-setup/images/20260503-03-09.png)
 
 - `Set up WordPress`画面では、任意の内容を入力し、`Add Site`ボタンを押下します。
