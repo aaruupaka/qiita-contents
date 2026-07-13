@@ -67,7 +67,7 @@ ChatGPTに停止コードを共有したところ、`Windowsがメモリ管理�
 
 
 また、下記の二つのコマンドを実行することを勧められました。
-```bash
+```cmd
 sfc /scannow
 DISM /Online /Cleanup-Image /RestoreHealth
 ```
