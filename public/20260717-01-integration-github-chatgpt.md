@@ -65,9 +65,7 @@ GitHubとChatGPTの連携を行ったので、その際の対応手順を備忘�
 # GitHubにChatGPT Codex Connectorをインストールする
 - 「GitHub を ChatGPT に接続」というページにアクセスします。
 
-```
-https://help.openai.com/ja-jp/articles/11145903-connecting-github-to-chatgpt
-```
+[GitHubをChatGPTに接続](https://help.openai.com/ja-jp/articles/11145903-connecting-github-to-chatgpt)
 
   <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260717-01-integration-github-chatgpt/images/20260717-01-12.png)
 
@@ -114,7 +112,7 @@ ChatGPTのGitHubプラグインでは権限がデフォルトの場合、「低�
 調べたところOpenAI側で不具合が発生していたようでした。
 執筆時点では解決しています。
 
-https://status.openai.com/incidents/01KXPJ62Z704GE0SRNKQA64X4X
+[Elevated errors for Github connector](https://status.openai.com/incidents/01KXPJ62Z704GE0SRNKQA64X4X)
 
   <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260717-01-integration-github-chatgpt/images/20260717-01-18.png)
 
