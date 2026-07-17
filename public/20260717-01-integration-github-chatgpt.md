@@ -116,3 +116,7 @@ https://status.openai.com/incidents/01KXPJ62Z704GE0SRNKQA64X4X
 
   <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260717-01-integration-github-chatgpt/images/20260717-01-18.png)
 
+# おわりに
+今回はChatGPTとGitHubの連携を行い、その内に実施した手順をまとめました。
+
+この記事がどなたかのお役に立てれば幸いです。
