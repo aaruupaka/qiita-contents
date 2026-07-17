@@ -107,10 +107,10 @@ ChatGPTのGitHubプラグインでは権限がデフォルトの場合、「低�
   <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260717-01-integration-github-chatgpt/images/20260717-01-22.png)
 
 # 502エラーが発生した件
-動作確認時にChatGPTにリポジトリの一覧の取得を依頼したところ502エラーが発生すると返されました。
+ChatGPTとGitHubの連携作業後、動作確認時にChatGPTにリポジトリの一覧の取得を依頼したところ502エラーが発生すると返されました。
 
 調べたところOpenAI側で不具合が発生していたようでした。
-執筆時点では解決しています。
+現時点では解決しています。
 
 [Elevated errors for Github connector](https://status.openai.com/incidents/01KXPJ62Z704GE0SRNKQA64X4X)
 
