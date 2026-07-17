@@ -1,5 +1,5 @@
 ---
-title: 20260717-01-integration-github-chatgpt
+title: GitHubとChatGPTの連携の連携手順
 tags:
   - ''
 private: true
