@@ -1,7 +1,9 @@
 ---
 title: GitHubとChatGPTの連携の連携手順
 tags:
-  - ''
+  - GitHub
+  - ChatGPT
+  - 備忘録
 private: true
 updated_at: ''
 id: null
