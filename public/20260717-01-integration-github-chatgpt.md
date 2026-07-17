@@ -102,13 +102,17 @@ ChatGPTのGitHubプラグインでは権限がデフォルトの場合、「低�
 - 任意の権限を選択すれば、反映されます。
   <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260717-01-integration-github-chatgpt/images/20260717-01-21.png)
 
-# 502エラーが発生する。
-ChatGPTにリポジトリの一覧の取得を依頼したところ502エラーが発生すると返されました。
+# 動作確認
+- ChatGPTにリポジトリの一覧を取得するよう依頼し、問題なく取得できることを確認します。
+  <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260717-01-integration-github-chatgpt/images/20260717-01-22.png)
 
-調べたところOpenAI側で不具合が発生しているようでした。
+# 502エラーが発生した件
+動作確認時にChatGPTにリポジトリの一覧の取得を依頼したところ502エラーが発生すると返されました。
 
-ひとまず設定が原因ではなさそうと判断しても良さそうです。
-復旧し次第確認作業を再度行う予定です。
+調べたところOpenAI側で不具合が発生していたようでした。
+執筆時点では解決しています。
+
 https://status.openai.com/incidents/01KXPJ62Z704GE0SRNKQA64X4X
 
   <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260717-01-integration-github-chatgpt/images/20260717-01-18.png)
+
