@@ -30,7 +30,7 @@ GitHubとChatGPTの連携を行ったので、その際の対応手順を備忘�
 # ChatGPTのプラグインをインストールする
 - ChatGPT(ブラウザ版)にアクセスします。
 
-- 左下のプロフィールアイコンを押下し、めゆーを展開後、`設定`を押下します。
+- 左下のプロフィールアイコンを押下し、メニューを展開後、`設定`を押下します。
   <br>![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260717-01-integration-github-chatgpt/images/20260717-01-01.png)
 
 - 設定画面が開いたら`プラグイン`タブを開き`プラグインを探す`を押下します。
