@@ -1,5 +1,5 @@
 ---
-title: GitHubとChatGPTの連携の連携手順
+title: GitHubとChatGPTの連携手順
 tags:
   - GitHub
   - ChatGPT
