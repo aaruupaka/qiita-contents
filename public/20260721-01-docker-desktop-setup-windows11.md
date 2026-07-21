@@ -11,4 +11,6 @@ ignorePublish: true
 posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
+# 環境情報
+- OS: `Windows 11`
 
