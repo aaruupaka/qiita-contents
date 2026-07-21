@@ -2,7 +2,7 @@
 title: 20260721-01-docker-desktop-setup-windows11
 tags:
   - ''
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
