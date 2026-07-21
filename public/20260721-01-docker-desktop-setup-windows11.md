@@ -20,3 +20,8 @@ agreed_posting_campaign_term: false
 - WSL2がインストールされていること
 - WSL2でubuntuがインストールされていること
 
+::: note info
+WSL2で利用するディストリビューションはUbuntuである必要はないと思いますが、私の環境はUbuntuであるため、指定しています。
+任意のディストリビューションで問題ありません。
+:::
+
