@@ -18,4 +18,5 @@ agreed_posting_campaign_term: false
 
 # 前提条件
 - WSL2がインストールされていること
+- WSL2でubuntuがインストールされていること
 
