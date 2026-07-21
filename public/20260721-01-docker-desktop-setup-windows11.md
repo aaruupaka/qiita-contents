@@ -13,6 +13,8 @@ agreed_posting_campaign_term: false
 ---
 # 環境情報
 - OS: `Windows 11`
+- WSL: WSL2
+- WSL2 Linuxディストリビューション: Ubuntu
 
 # 前提条件
 - WSL2がインストールされていること
