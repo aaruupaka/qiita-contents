@@ -157,16 +157,17 @@ WSL2で利用するディストリビューションはUbuntuである必要は�
   ![alt text](./20260721-01-03.png)
 
 - インストールが完了すると`Installation succeeded`と出るので`Close`を押下します。
-  ![alt text](20260721-01-04.png)
+  ![alt text](./20260721-01-04.png)
 
 - スタートメニューで`Docker Desktop`検索し、表示されることを確認します。
-  ![alt text](20260721-01-05.png)
+  ![alt text](./20260721-01-05.png)
 
 ## Docker Desktopの初回起動時対応
 - `Docker Desktop`を起動します。
 
 - 規約等を確認して`Accept`を押下します。
-  ![alt text](20260721-01-06.png)
+  ![alt text](./20260721-01-06.png)
 
 - ログイン画面が出るのでログインか、アカウントの作成を行います。
-  ![alt text](image.png)
+  ![alt text](./20260721-01-07.png)
+
