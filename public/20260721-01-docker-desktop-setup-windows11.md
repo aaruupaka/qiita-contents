@@ -79,3 +79,47 @@ WSL2で利用するディストリビューションはUbuntuである必要は�
     Windows バージョン: 10.0.26200.8894
     ```
 
+## Ubuntuの更新
+- Ubuntuを起動します。
+  - 実行コマンド
+    ```bash
+    wsl
+    ```
+  - 実行結果例
+    ```bash
+    To run a command as administrator (user "root"), use "sudo <command>".
+    See "man sudo_root" for details.
+
+    test@testpc:/mnt/c/Users/test$
+    ```
+
+- Ubuntuの更新内容を取得します。
+  - 実行コマンド
+    ```bash
+    sudo apt update
+    ```
+  - 実行結果例
+    ```bash
+    ...(一部省略)
+    Fetched 35.8 MB in 8s (4516 kB/s)
+    Reading package lists... Done
+    Building dependency tree... Done
+    Reading state information... Done
+    238 packages can be upgraded. Run 'apt list --upgradable' to see them.
+    ```
+
+- Ubuntuの更新を行います。
+  - 実行コマンド
+    ```bash
+    sudo apt upgrade -y
+    ```
+  - 実行結果例
+    ```
+    ...(一部省略)
+    Setting up ubuntu-wsl (1.539.2) ...
+    Processing triggers for ca-certificates (20260601~24.04.1) ...
+    Updating certificates in /etc/ssl/certs...
+    0 added, 0 removed; done.
+    Running hooks in /etc/ca-certificates/update.d...
+    done.
+    ```
