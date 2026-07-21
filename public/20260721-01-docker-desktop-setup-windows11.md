@@ -131,6 +131,7 @@ WSL2で利用するディストリビューションはUbuntuである必要は�
   [Doker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)
 
 - `Docker Desktopをダウンロードする`にカーソルを合わせたのち、自身の環境にあった選択肢を選択します。
+  ![alt text](./20260721-01-01.png)
   - 私は`Windows 版のダウンロード – AMD64`を選択しました。
   - OSおよびCPUにより、ダウンロードするものが異なります。
     - Windowsの場合、下記コマンドを実行することで、どちらをダウンロードすべきか確認できます。
