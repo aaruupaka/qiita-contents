@@ -146,6 +146,18 @@ WSL2で利用するディストリビューションはUbuntuである必要は�
 
 - `Docker Desktop Installer.exe`がダウンロードされたことを確認します。
 
+## Docker Desktopのインストール
+- `Docker Desktop Installer.exe`を起動します。
 
+- `Configuration`画面で任意の項目を選択し`OK`を押下します。
+  - 私は`Per-user installation(Recommended)`を選択しました。
+    ![alt text](./20260721-01-02.png)
 
+- インストールが始まるので待機します。
+  ![alt text](./20260721-01-03.png)
 
+- インストールが完了すると`Installation succeeded`と出るので`Close`を押下します。
+  ![alt text](20260721-01-04.png)
+
+- スタートメニューで`Docker Desktop`検索し、表示されることを確認します。
+  ![alt text](20260721-01-05.png)
