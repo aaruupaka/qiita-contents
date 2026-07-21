@@ -126,3 +126,24 @@ WSL2で利用するディストリビューションはUbuntuである必要は�
 
 # Docker Desktopの導入手順
 
+## Docker Desktopをダウンロード
+- 下記のURL、Dockerのトップページにアクセスします。
+  [Doker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)
+
+- `Docker Desktopをダウンロードする`にカーソルを合わせたのち、自身の環境にあった選択肢を選択します。
+  - 私は`Windows 版のダウンロード – AMD64`を選択しました。
+  - OSおよびCPUにより、ダウンロードするものが異なります。
+    - Windowsの場合、下記コマンドを実行することで、どちらをダウンロードすべきか確認できます。
+      - 実行コマンド
+        ```bash
+        echo $env:PROCESSOR_ARCHITECTURE
+        ```
+      - 実行結果例
+        ```bash
+        AMD64
+        ```
+
+- `Docker Desktop Installer.exe`がダウンロードされたことを確認します。
+
+
+
