@@ -176,3 +176,25 @@ WSL2で利用するディストリビューションはUbuntuである必要は�
 
 # Dockerの動作確認
 
+## Docker CLIの動作確認
+- Windows Terminal(PowerShell)を起動します。
+
+- Dockerのバージョンチェックコマンドを実行します。
+  - 実行コマンド
+    ```bash
+    docker --version
+    ```
+  - 実行結果例
+    ```bash
+    Docker version 29.6.2, build dfc4efb
+    ```
+- Docker composeのバージョンチェックコマンドを実行します。
+  - 実行コマンド
+    ```bash
+    docker compose version
+    ```
+  - 実行結果例
+    ```bash
+    Docker Compose version v5.3.1
+    ```
+
