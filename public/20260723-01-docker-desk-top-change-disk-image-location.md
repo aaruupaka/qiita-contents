@@ -2,7 +2,7 @@
 title: 20260723-01-docker-desk-top-change-disk-image-location
 tags:
   - ''
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
