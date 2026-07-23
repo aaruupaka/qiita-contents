@@ -11,4 +11,9 @@ ignorePublish: true
 posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
+# 概要
+Docker Desktopの`Disk image location`の変更手順をまとめています。
+
+Cドライブの残り容量が13GB程度になってしまったため、
+`Disk image location`を変更することにしました。
 
