@@ -290,4 +290,24 @@ WSL2で利用するディストリビューションはUbuntuである必要は�
   - 確認事項
     - `hello-world`が存在していないことを確認します。
 
+### 動作検証用のイメージを削除
+- イメージを削除します。
+  - 実行コマンド
+    ```bash
+    docker image rm hello-world
+    ```
+  - 実行結果例
+    ```bash
+    Untagged: hello-world:latest
+    Deleted: sha256:c3cbe1cc1aa588a64951ac6286e0df7b27fe2e6324b1001c619bb358770c0178
+    ```
 
+- イメージが削除されたか確認します。
+  - 実行コマンド
+    ```bash
+    docker images
+    ```
+  - 実行結果例
+    ```bash
+    IMAGE   ID             DISK USAGE   CONTENT SIZE   EXTRA
+    ```
