@@ -264,3 +264,30 @@ WSL2で利用するディストリビューションはUbuntuである必要は�
 
 ## 動作確認の後処理
 
+### 動作確認用のコンテナを削除
+- コンテナを削除します。
+  - 実行コマンド
+    ```bash
+    docker rm <hello-worldのコンテナのID>
+    ```
+  - 実行コマンド例
+    ```bash
+    docker rm 40f94a50244f
+    ```
+  - 実行結果例
+    ```bash
+    40f94a50244f
+    ```
+- コンテナが削除されたか確認します。
+  - 実行コマンド
+    ```bash
+    docker ps -a
+    ```
+  - 実行結果例
+    ```bash
+    CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+    ```
+  - 確認事項
+    - `hello-world`が存在していないことを確認します。
+
+
