@@ -198,3 +198,67 @@ WSL2で利用するディストリビューションはUbuntuである必要は�
     Docker Compose version v5.3.1
     ```
 
+## Dockerの動作確認
+今回は、`hello-world`というイメージを使用し、実際にコンテナを起動してみます。
+- `hello-world`を実行します。
+  - 実行コマンド
+    ```bash
+    docker run hello-world
+    ```
+  - 実行結果例
+    ```bash
+    Unable to find image 'hello-world:latest' locally
+    latest: Pulling from library/hello-world
+    4f55086f7dd0: Pull complete
+    d5e71e642bf5: Download complete
+    Digest: sha256:c3cbe1cc1aa588a64951ac6286e0df7b27fe2e6324b1001c619bb358770c0178
+    Status: Downloaded newer image for hello-world:latest
+
+    Hello from Docker!
+    This message shows that your installation appears to be working correctly.
+
+    To generate this message, Docker took the following steps:
+    1. The Docker client contacted the Docker daemon.
+    2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+        (amd64)
+    3. The Docker daemon created a new container from that image which runs the
+        executable that produces the output you are currently reading.
+    4. The Docker daemon streamed that output to the Docker client, which sent it
+        to your terminal.
+
+    To try something more ambitious, you can run an Ubuntu container with:
+    $ docker run -it ubuntu bash
+
+    Share images, automate workflows, and more with a free Docker ID:
+    https://hub.docker.com/
+
+    For more examples and ideas, visit:
+    https://docs.docker.com/get-started/
+    ```
+  - 確認事項
+    - `Hello from Docker!`と出力されていることを確認します。
+
+- imageが取得できたか確認します。
+  - 実行コマンド
+    ```bash
+    docker images
+    ```
+  - 実行結果例
+    ```bash
+    IMAGE                ID             DISK USAGE   CONTENT SIZE   EXTRA
+    hello-world:latest   c3cbe1cc1aa5       25.9kB         9.49kB    U
+    ```
+
+- コンテナを確認します。
+  - 実行コマンド
+    ```bash
+    docker ps -a
+    ```
+  - 実行結果例
+    ```bash
+    CONTAINER ID   IMAGE         COMMAND    CREATED         STATUS                     PORTS     NAMES
+    40f94a50244f   hello-world   "/hello"   3 minutes ago   Exited (0) 3 minutes ago             gifted_mcclintock
+    ```
+  - 確認事項
+    - `hello-world`のレコードが出力されること
+
