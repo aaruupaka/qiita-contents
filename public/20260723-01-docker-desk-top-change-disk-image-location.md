@@ -17,3 +17,7 @@ Docker Desktopの`Disk image location`の変更手順をまとめています。
 Cドライブの残り容量が13GB程度になってしまったため、
 `Disk image location`を変更することにしました。
 
+# 環境情報
+- OS: Windows 11
+- Docker Desktopバージョン: v4.83.0
+
