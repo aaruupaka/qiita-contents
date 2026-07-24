@@ -2,7 +2,7 @@
 title: 20260724-01-localwp-wp-cli-wordpress-theme-check
 tags:
   - ''
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
