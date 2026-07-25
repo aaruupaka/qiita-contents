@@ -31,6 +31,12 @@ https://developer.wordpress.org/cli/commands/
 
 また、Qiitaで質問してみるのもありかもしれない
 
+<2026年7月25日　追記>
+GitHub版を取得し、実行したところ下記の結果が得られた。
+- 管理画面で取得できるチェック結果は同一の内容
+- `wp theme-check run `が実行でき、結果が出た
+  - なお、管理画面で出るものとは出力順が異なるため、内容が一致しているかまでは未確認
+
 
 # 環境情報
 - OS: Windows11
@@ -155,4 +161,60 @@ https://developer.wordpress.org/cli/commands/
   - 実行結果例
     ```bash
     Error: 'theme-check' is not a registered wp command. See 'wp help' for available commands.
+    ```
+  - 実行結果例（GItHub版（バージョン： 20260508））
+    ```bash
+    +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | type        | value                                                                                                                                                                                           |
+    +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | REQUIRED    | Could not find add_theme_support( 'automatic-feed-links' ). See: add_theme_support <?php add_theme_support( $feature ); ?>                                                                      |
+    | REQUIRED    | Could not find wp_link_pages. See: wp_link_pages <?php wp_link_pages( $args ); ?>                                                                                                               |
+    | RECOMMENDED | No reference to register_block_pattern was found in the theme. Theme authors are encouraged to implement custom block patterns as a transition to block themes.                                 |
+    | RECOMMENDED | No reference to register_block_style was found in the theme. Theme authors are encouraged to implement new block styles as a transition to block themes.                                        |
+    | RECOMMENDED | The theme doesn't have comment pagination code in it. Use paginate_comments_links() or the_comments_navigation or the_comments_pagination or next_comments_link() and previous_comments_link()  |
+    |             | to add comment pagination.                                                                                                                                                                      |
+    | RECOMMENDED | Could not find the comment-reply script enqueued.                                                                                                                                               |
+    | RECOMMENDED | Could not find comments_template. See: comments_template <?php comments_template( $file, $separate_comments ); ?>                                                                               |
+    | RECOMMENDED | Could not find wp_list_comments. See: wp_list_comments <?php wp_list_comments( $args ); ?>                                                                                                      |
+    | RECOMMENDED | Could not find comment_form. See: comment_form <?php comment_form(); ?>                                                                                                                         |
+    | WARNING     | Could not find a copyright notice for the theme. A copyright notice is needed if your theme is licenced as GPL. Learn how to add a copyright notice (opens in a new window).                    |
+    | RECOMMENDED | No reference to add_editor_style() was found in the theme. It is recommended that the theme implement editor styling, so as to make the editor content match the resulting post output in the t |
+    |             | heme, for a better user experience.                                                                                                                                                             |
+    | REQUIRED    | Could not find the file readme.txt in the theme.                                                                                                                                                |
+    | RECOMMENDED | This theme doesn't seem to support the standard avatar functions. Use get_avatar or wp_list_comments to add this support.                                                                       |
+    | RECOMMENDED | No reference to nav_menu's was found in the theme. Note that if your theme has a menu bar, it is required to use the WordPress nav_menu functionality for it.                                   |
+    | RECOMMENDED | The theme doesn't have post pagination code in it. Use posts_nav_link() or paginate_links() or the_posts_pagination() or the_posts_navigation() or next_posts_link() and previous_posts_link()  |
+    |             | to add post pagination.                                                                                                                                                                         |
+    | RECOMMENDED | No reference to the_post_thumbnail() was found in the theme. It is recommended that the theme implement this functionality instead of using custom fields for thumbnails.                       |
+    | RECOMMENDED | No reference to post-thumbnails was found in the theme. If the theme has a thumbnail like functionality, it should be implemented with add_theme_support( "post-thumbnails" ) in the functions. |
+    |             | php file.                                                                                                                                                                                       |
+    | REQUIRED    | No screenshot detected! Please include a screenshot.png or screenshot.jpg.                                                                                                                      |
+    | REQUIRED    | License: is missing from your style.css header.                                                                                                                                                 |
+    | REQUIRED    | License URI: is missing from your style.css header.                                                                                                                                             |
+    | REQUIRED    | Text Domain: is missing from your style.css header.                                                                                                                                             |
+    | REQUIRED    | Tested up to: is missing from your style.css header. Also, this should be numbers only, so 5.0 and not WP 5.0                                                                                   |
+    | REQUIRED    | Requires PHP: is missing from your style.css header.                                                                                                                                            |
+    | INFO        | Tags: is either empty or missing in style.css header.                                                                                                                                           |
+    | RECOMMENDED | Theme URI: is missing from your style.css header.                                                                                                                                               |
+    | RECOMMENDED | Author URI: is missing from your style.css header.                                                                                                                                              |
+    | RECOMMENDED | .sticky css class is recommended in your theme css.                                                                                                                                             |
+    | RECOMMENDED | .bypostauthor css class is recommended in your theme css.                                                                                                                                       |
+    | RECOMMENDED | .alignleft css class is recommended in your theme css.                                                                                                                                          |
+    | RECOMMENDED | .alignright css class is recommended in your theme css.                                                                                                                                         |
+    | RECOMMENDED | .aligncenter css class is recommended in your theme css.                                                                                                                                        |
+    | RECOMMENDED | .wp-caption css class is recommended in your theme css.                                                                                                                                         |
+    | RECOMMENDED | .wp-caption-text css class is recommended in your theme css.                                                                                                                                    |
+    | RECOMMENDED | .gallery-caption css class is recommended in your theme css.                                                                                                                                    |
+    | INFO        | Only one text-domain is being used in this theme. Make sure it matches the theme's slug correctly so that the theme will be compatible with WordPress.org language packs. The domain found is . |
+    | RECOMMENDED | No reference to add_theme_support( "custom-header", $args ) was found in the theme. It is recommended that the theme implement this functionality if using an image for the header.             |
+    | RECOMMENDED | No reference to add_theme_support( "custom-background", $args ) was found in the theme. If the theme uses background images or solid colors for the background, then it is recommended that the |
+    |             |  theme implement this functionality.                                                                                                                                                            |
+    | RECOMMENDED | No reference to add_theme_support( "custom-logo", $args ) was found in the theme. It is recommended that the theme implement this functionality.                                                |
+    | RECOMMENDED | No reference to add_theme_support( "html5", $args ) was found in the theme. It is strongly recommended that the theme implement this functionality.                                             |
+    | RECOMMENDED | No reference to add_theme_support( "responsive-embeds" ) was found in the theme. It is recommended that the theme implement this functionality.                                                 |
+    | RECOMMENDED | No reference to add_theme_support( "align-wide" ) was found in the theme. It is recommended that the theme implement this functionality.                                                        |
+    | RECOMMENDED | No reference to add_theme_support( "wp-block-styles" ) was found in the theme. It is recommended that the theme implement this functionality.                                                   |
+    | REQUIRED    | No reference to add_theme_support( "title-tag" ) was found in the theme.                                                                                                                        |
+    | RECOMMENDED | <title> tag was found in the file header.php. Document titles must not be hard coded, use add_theme_support( "title-tag" ) instead. Line 6: <title><?php bloginfo('name'); ?></title>           |
+    +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
     ```
