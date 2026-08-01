@@ -131,7 +131,7 @@ WSL2で利用するディストリビューションはUbuntuである必要は�
   [Doker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)
 
 - `Docker Desktopをダウンロードする`にカーソルを合わせたのち、自身の環境にあった選択肢を選択します。
-  ![alt text](./20260721-01-01.png)
+  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-01.png)
   - 私は`Windows 版のダウンロード – AMD64`を選択しました。
   - OSおよびCPUにより、ダウンロードするものが異なります。
     - Windowsの場合、下記コマンドを実行することで、どちらをダウンロードすべきか確認できます。
@@ -151,28 +151,28 @@ WSL2で利用するディストリビューションはUbuntuである必要は�
 
 - `Configuration`画面で任意の項目を選択し`OK`を押下します。
   - 私は`Per-user installation(Recommended)`を選択しました。
-    ![alt text](./20260721-01-02.png)
+    ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-02.png)
 
 - インストールが始まるので待機します。
-  ![alt text](./20260721-01-03.png)
+  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-03.png)
 
 - インストールが完了すると`Installation succeeded`と出るので`Close`を押下します。
-  ![alt text](./20260721-01-04.png)
+  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-04.png)
 
 - スタートメニューで`Docker Desktop`検索し、表示されることを確認します。
-  ![alt text](./20260721-01-05.png)
+  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-05.png)
 
 ## Docker Desktopの初回起動時対応
 - `Docker Desktop`を起動します。
 
 - 規約等を確認して`Accept`を押下します。
-  ![alt text](./20260721-01-06.png)
+  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-06.png)
 
 - ログイン画面が出るのでログインか、アカウントの作成を行います。
-  ![alt text](./20260721-01-07.png)
+  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-07.png)
 
 - ログインできたことを確認します。
-  ![alt text](./20260721-01-08.png)
+  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-08.png)
 
 # Dockerの動作確認
 
