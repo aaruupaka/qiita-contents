@@ -19,6 +19,7 @@ agreed_posting_campaign_term: false
 - OS: `Windows 11`
 - WSL: WSL2
 - WSL2 Linuxディストリビューション: Ubuntu
+- Docker Desktop バージョン: v4.83.0
 
 # 前提条件
 - WSL2がインストールされていること
