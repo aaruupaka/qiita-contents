@@ -190,7 +190,11 @@ WSL2で利用するディストリビューションはUbuntuである必要は�
 - ログイン画面が出るのでログインか、アカウントの作成を行います。
   ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-07.png)
 
-- ログインできたことを確認します。
+  ::: note info
+  ログインせずに利用する場合は、スキップして先に進みます。
+  :::
+
+- Docker Desktopが起動できたことを確認します。
   ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-08.png)
 
 # Dockerの動作確認
