@@ -327,3 +327,9 @@ WSL2で利用するディストリビューションはUbuntuである必要は�
     ```bash
     IMAGE   ID             DISK USAGE   CONTENT SIZE   EXTRA
     ```
+
+# おわりに
+本記事では、Windows11にDocker Desktopの導入した際の手順を記録しました。
+今回は、ダウンロードから動作確認まで対応しました。
+
+Windows11に導入する予定の方のお役に立てましたら幸いです。
