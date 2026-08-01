@@ -144,7 +144,7 @@ Ubuntuの更新作業は、任意作業です。
 - Ubuntuの更新を行います。
   - 実行コマンド
     ```bash
-    sudo apt upgrade -y
+    sudo apt upgrade
     ```
   - 実行結果例
     ```
