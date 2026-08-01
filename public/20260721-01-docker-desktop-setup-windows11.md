@@ -1,7 +1,11 @@
 ---
 title: Docker Desktopの導入手順【Windows11】
 tags:
-  - ''
+  - Docker
+  - DockerDesktop
+  - Windows11
+  - Ubuntu
+  - WSL2
 private: true
 updated_at: ''
 id: null
