@@ -164,7 +164,7 @@ Ubuntuの更新作業は、任意作業です。
   [Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)
 
 - `Docker Desktopをダウンロードする`にカーソルを合わせたのち、自身の環境にあった選択肢を選択します。
-  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-01.png)
+  ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-01.png)
   - 私は`Windows 版のダウンロード – AMD64`を選択しました。
   - OSおよびCPUにより、ダウンロードするものが異なります。
     - Windowsの場合、下記コマンドを実行することで、どちらをダウンロードすべきか確認できます。
@@ -192,16 +192,16 @@ Ubuntuの更新作業は、任意作業です。
     利用目的に応じたインストール方式の選択については、Docker公式ドキュメントをご確認ください
     :::
 
-    ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-02.png)
+    ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-02.png)
 
 - インストールが始まるので待機します。
-  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-03.png)
+  ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-03.png)
 
 - インストールが完了すると`Installation succeeded`と出るので`Close`を押下します。
-  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-04.png)
+  ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-04.png)
 
 - スタートメニューで`Docker Desktop`検索し、表示されることを確認します。
-  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-05.png)
+  ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-05.png)
 
 ## Docker Desktopの初回起動時対応
 - `Docker Desktop`を起動します。
@@ -214,17 +214,17 @@ Ubuntuの更新作業は、任意作業です。
   一方、大規模組織での業務利用などでは有料サブスクリプションが必要になる場合があります。利用前に最新のライセンス条件を公式ページで確認してください。
   :::
 
-  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-06.png)
+  ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-06.png)
 
 - ログイン画面が出るのでログインか、アカウントの作成を行います。
-  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-07.png)
+  ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-07.png)
 
   ::: note info
   ログインせずに利用する場合は、スキップして先に進みます。
   :::
 
 - Docker Desktopが起動できたことを確認します。
-  ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-08.png)
+  ![alt text](https://raw.githubusercontent.com/aaruupaka/qiita-contents/main/articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-08.png)
 
 # Dockerの動作確認
 
