@@ -16,7 +16,7 @@ posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
 # はじめに
-本記事では、Windows11にDocker Desktopの導入した際の手順を記録しています。
+本記事では、Windows11にWindows 11にDocker Desktopを導入した際の手順を記録しています。
 
 Windows11に導入する予定の方のお役に立てましたら幸いです。
 
@@ -161,7 +161,7 @@ Ubuntuの更新作業は、任意作業です。
 
 ## Docker Desktopをダウンロード
 - 下記のURL、Dockerのトップページにアクセスします。
-  [Doker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)
+  [Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)
 
 - `Docker Desktopをダウンロードする`にカーソルを合わせたのち、自身の環境にあった選択肢を選択します。
   ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-01.png)
@@ -358,7 +358,7 @@ Ubuntuの更新作業は、任意作業です。
     ```
 
 # おわりに
-本記事では、Windows11にDocker Desktopの導入した際の手順を記録しました。
+本記事では、Windows11にWindows 11にDocker Desktopを導入した際の手順を記録しました。
 今回は、ダウンロードから動作確認まで対応しました。
 
 Windows11に導入する予定の方のお役に立てましたら幸いです。
