@@ -7,7 +7,7 @@ tags:
   - Ubuntu
   - WSL2
 private: true
-updated_at: '2026-08-01T10:32:42+09:00'
+updated_at: '2026-08-01T10:39:16+09:00'
 id: b78ef1d60902ce78412a
 organization_url_name: null
 slide: false
