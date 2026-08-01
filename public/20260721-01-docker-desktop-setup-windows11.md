@@ -184,6 +184,14 @@ Ubuntuの更新作業は、任意作業です。
 
 - `Configuration`画面で任意の項目を選択し`OK`を押下します。
   - 私は`Per-user installation(Recommended)`を選択しました。
+
+    ::: note info
+    本記事では、実際に使用したPer-user installationでの導入手順を記載しています。
+
+    インストール方式による機能や権限の違いについては検証していないため、本記事では説明を省略します。
+    利用目的に応じたインストール方式の選択については、Docker公式ドキュメントをご確認ください
+    :::
+
     ![alt text](../articles/20260721-01-docker-desktop-setup-windows11/images/20260721-01-02.png)
 
 - インストールが始まるので待機します。
