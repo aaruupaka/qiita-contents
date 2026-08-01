@@ -26,9 +26,9 @@ Windows11に導入する予定の方のお役に立てましたら幸いです�
 
 # 環境情報
 - OS: `Windows 11`
-- WSL: WSL2
-- WSL2 Linuxディストリビューション: Ubuntu
-- Docker Desktop バージョン: v4.83.0
+- WSL: `WSL2`
+- WSL2 Linuxディストリビューション: `Ubuntu`
+- Docker Desktop バージョン: `v4.83.0`
 
 # 前提条件
 - Docker Desktopのシステム要件を満たしていること
