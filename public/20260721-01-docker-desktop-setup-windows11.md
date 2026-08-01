@@ -15,6 +15,15 @@ ignorePublish: true
 posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
+# はじめに
+本記事では、Windows11にDocker Desktopの導入した際の手順を記録しています。
+
+Windows11に導入する予定の方のお役に立てましたら幸いです。
+
+::: note info
+2026年7月に対応した際の手順です。
+:::
+
 # 環境情報
 - OS: `Windows 11`
 - WSL: WSL2
