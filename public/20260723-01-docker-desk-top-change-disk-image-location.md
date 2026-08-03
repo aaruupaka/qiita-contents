@@ -6,8 +6,8 @@ tags:
   - Windows
   - Windows11
 private: true
-updated_at: ''
-id: null
+updated_at: '2026-08-03T11:51:56+09:00'
+id: fbef0a382d309fcd163c
 organization_url_name: null
 slide: false
 ignorePublish: false
