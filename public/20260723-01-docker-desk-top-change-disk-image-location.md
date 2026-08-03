@@ -1,7 +1,10 @@
 ---
 title: Docker Desktopの `Disk image location` の変更手順【Windows 11】
 tags:
-  - ''
+  - Docker
+  - DockerDesktop
+  - Windows
+  - Windows11
 private: true
 updated_at: ''
 id: null
