@@ -12,10 +12,14 @@ posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
 # はじめに
-Docker Desktopの`Disk image location`の変更手順をまとめています。
-
 Cドライブの残り容量が13GB程度になってしまったため、
 `Disk image location`の保存先をDドライブに変更することにしました。
+
+今回は、Docker Desktopの`Disk image location`の変更した際の手順をまとめています。
+
+::: note info
+2026年7月に対応した際の内容です。
+:::
 
 # 環境情報
 - OS: Windows 11
