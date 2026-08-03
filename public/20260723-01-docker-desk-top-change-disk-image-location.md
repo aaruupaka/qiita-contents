@@ -47,3 +47,8 @@ Cドライブの残り容量が13GB程度になってしまったため、
 
 - 以上で作業は完了です。
 ![alt text](../articles/20260723-01-docker-desk-top-change-disk-image-location/images/20260723-01-08.png)
+
+# おわりに
+今回は、Docker Desktopの`Disk image location`の変更手順をまとめました。
+
+この記事がどなたかのお役に立てば幸いです。
