@@ -22,8 +22,8 @@ Cドライブの残り容量が13GB程度になってしまったため、
 :::
 
 # 環境情報
-- OS: Windows 11
-- Docker Desktopバージョン: v4.83.0
+- OS: `Windows 11`
+- Docker Desktopバージョン: `v4.83.0`
 
 # `Disk image location`の変更手順
 - Docker Desktopを起動します。
