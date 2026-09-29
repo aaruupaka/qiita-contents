@@ -2,13 +2,13 @@
 title: CakePHP Migrationsプラグインで指定可能なデータ型および、カラムオプションまとめ【Migrations 5.2.6】
 tags:
   - CakePHP
-  - CakePHP5
+  - Cakephp5
   - Migrations
   - CakePHP-Migrations-Plugin
   - PHP
-private: false
-updated_at: ''
-id: null
+private: true
+updated_at: '2026-09-29T20:27:32+09:00'
+id: d5f9759d623f8c6588dc
 organization_url_name: null
 slide: false
 ignorePublish: false
