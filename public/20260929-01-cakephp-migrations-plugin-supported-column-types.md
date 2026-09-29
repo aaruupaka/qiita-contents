@@ -1,7 +1,11 @@
 ---
 title: CakePHP Migrationsプラグインで指定可能なデータ型まとめ【Migrations5.2.6】
 tags:
-  - ''
+  - CakePHP
+  - CakePHP5
+  - Migrations
+  - CakePHP-Migrations-Plugin
+  - PHP
 private: true
 updated_at: ''
 id: null
