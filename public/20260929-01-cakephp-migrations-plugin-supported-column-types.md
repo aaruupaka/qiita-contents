@@ -2,7 +2,7 @@
 title: 20260929-01-cakephp-migrations-plugin-supported-column-types
 tags:
   - ''
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
