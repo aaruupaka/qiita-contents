@@ -6,7 +6,7 @@ tags:
   - Migrations
   - CakePHP-Migrations-Plugin
   - PHP
-private: true
+private: false
 updated_at: '2026-09-30T07:03:37+09:00'
 id: d5f9759d623f8c6588dc
 organization_url_name: null
