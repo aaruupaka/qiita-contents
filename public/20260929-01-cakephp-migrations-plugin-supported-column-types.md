@@ -1,5 +1,5 @@
 ---
-title: CakePHP Migrationsプラグインで指定可能なデータ型まとめ【Migrations 5.2.6】
+title: CakePHP Migrationsプラグインで指定可能なデータ型および、カラムオプションまとめ【Migrations 5.2.6】
 tags:
   - CakePHP
   - CakePHP5
@@ -27,7 +27,7 @@ CakePHPのMigrationsプラグインでは、マイグレーションファイル
 
 なお、本記事の内容は公式リファレンスをもとに整理したものであり、記載しているすべてのデータ型について、実際にマイグレーションを実行して動作確認を行ったものではありません。
 
-# バージョン
+# バージョン情報
 - CakePHP: `5.4.2`
 - Migrations: `5.2.6`
 
