@@ -15,4 +15,9 @@ ignorePublish: true
 posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
+# はじめに
+CakePHP5系において、ログイン機能を実装しようとした際、認証機能の実装の前に、認証プラグインのセットアップが必要であることが分かりました。
+
+今回は、認証プラグインのセットアップ手順をまとめます。
+
 
