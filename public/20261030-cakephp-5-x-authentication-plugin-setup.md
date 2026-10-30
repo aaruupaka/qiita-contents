@@ -1,5 +1,5 @@
 ---
-title: 20261030-cakephp-5-x-authentication-plugin-setup
+title: 【CakePHP5.x】認証プラグインのセットアップ
 tags:
   - ''
 private: ture
