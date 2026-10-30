@@ -1,7 +1,11 @@
 ---
 title: 【CakePHP5.x】認証プラグインのセットアップ
 tags:
-  - ''
+  - CakePHP
+  - CakePHP5
+  - 認証プラグイン
+  - Authentication
+  - 備忘録
 private: ture
 updated_at: ''
 id: null
