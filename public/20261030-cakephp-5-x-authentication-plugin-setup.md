@@ -6,7 +6,7 @@ tags:
   - 認証プラグイン
   - Authentication
   - 備忘録
-private: ture
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
