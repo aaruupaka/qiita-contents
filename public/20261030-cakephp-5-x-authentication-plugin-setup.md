@@ -20,4 +20,10 @@ CakePHP5系において、ログイン機能を実装しようとした際、認
 
 今回は、認証プラグインのセットアップ手順をまとめます。
 
+# 公式リファレンス
+
+[CakePHP Authenticationプラグイン　公式リファレンス](https://book.cakephp.org/authentication/4/)
+
+CakePHPの公式リファレンスは上記のリンクです。
+
 
